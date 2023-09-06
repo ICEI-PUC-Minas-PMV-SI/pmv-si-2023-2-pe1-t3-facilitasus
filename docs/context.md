@@ -1,13 +1,20 @@
 # Introdução
 
+<-- 
 Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
 
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
+ A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
 
 
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
+ A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
 
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
+ Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.  
+--> 
+
+Agendar exames e consultas médicas muitas vezes é um processo complicado e demorado. Os pacientes frequentemente enfrentam dificuldades para encontrar horários disponíveis, preencher formulários, e seguir os procedimentos necessários para agendar uma consulta.
+Com isso, Consultas e exames atrasados significam que os recursos médicos não são utilizados da melhor maneira possível, o que pode levar a uma sobrecarga nos hospitais e clínicas.
+Além disso, a falta de informações sobre os procedimentos de agendamento e os recursos disponíveis é um obstáculo adicional para os pacientes. Muitas vezes, não têm acesso a informações claras e atualizadas sobre os protocolos necessários para dar continuidade no agendamento.
+
 
 ## Problema
 
