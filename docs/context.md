@@ -1,22 +1,15 @@
 # Introdução
 
-Agendar exames e consultas médicas muitas vezes é um processo complicado e demorado. Os pacientes frequentemente enfrentam dificuldades para encontrar horários disponíveis, preencher formulários, e seguir os procedimentos necessários para agendar uma consulta.
-Com isso, Consultas e exames atrasados significam que os recursos médicos não são utilizados da melhor maneira possível, o que pode levar a uma sobrecarga nos hospitais e clínicas.
-Além disso, a falta de informações sobre os procedimentos de agendamento e os recursos disponíveis é um obstáculo adicional para os pacientes. Muitas vezes, não têm acesso a informações claras e atualizadas sobre os protocolos necessários para dar continuidade no agendamento.
-
+O contexto em que este projeto se insere envolve questões relacionadas ao agendamento de exames e consultas médicas no Brasil. Esse processo tem sido historicamente complexo e demorado, afetando tanto os pacientes quanto o sistema de saúde como um todo.
+A complexidade do agendamento pode resultar em atrasos no diagnóstico e tratamento médico inadequado, o que tem sérias implicações para a saúde dos pacientes. Além disso, a falta de informações claras e acessíveis torna ainda mais difícil para os pacientes navegarem pelo sistema de saúde e agendarem suas consultas e exames de forma eficaz.
+Esses desafios afetam não apenas os indivíduos que buscam cuidados médicos, mas também sobrecarregam o sistema de saúde, desperdiçando recursos preciosos e contribuindo para a ineficiência geral.
+Portanto, a otimização do processo de agendamento de consultas e exames médicos é um aspecto crítico para melhorar o acesso aos cuidados de saúde e a qualidade dos serviços oferecidos, visando aprimorar o sistema de saúde como um todo.
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Agendar exames e consultas médicas muitas vezes é um processo complicado e demorado. Os pacientes frequentemente enfrentam dificuldades para encontrar horários disponíveis, preencher formulários, e seguir os procedimentos necessários para agendar uma consulta.
+Com isso, Consultas e exames atrasados significam que os recursos médicos não são utilizados da melhor maneira possível, o que pode levar a uma sobrecarga nos hospitais e clínicas.
+Além disso, a falta de informações sobre os procedimentos de agendamento e os recursos disponíveis é um obstáculo adicional para os pacientes. Muitas vezes, não têm acesso a informações claras e atualizadas sobre os protocolos necessários para dar continuidade no agendamento.
 
 ## Objetivos
 
