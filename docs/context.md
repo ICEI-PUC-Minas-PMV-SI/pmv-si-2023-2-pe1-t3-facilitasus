@@ -1,13 +1,17 @@
 # Introdução
 
 O contexto em que este projeto se insere envolve questões relacionadas ao agendamento de exames e consultas médicas no Brasil. Esse processo tem sido historicamente complexo e demorado, afetando tanto os pacientes quanto o sistema de saúde como um todo.
+
 A complexidade do agendamento pode resultar em atrasos no diagnóstico e tratamento médico inadequado, o que tem sérias implicações para a saúde dos pacientes. Além disso, a falta de informações claras e acessíveis torna ainda mais difícil para os pacientes navegarem pelo sistema de saúde e agendarem suas consultas e exames de forma eficaz.
+
 Esses desafios afetam não apenas os indivíduos que buscam cuidados médicos, mas também sobrecarregam o sistema de saúde, desperdiçando recursos preciosos e contribuindo para a ineficiência geral.
+
 Portanto, a otimização do processo de agendamento de consultas e exames médicos é um aspecto crítico para melhorar o acesso aos cuidados de saúde e a qualidade dos serviços oferecidos, visando aprimorar o sistema de saúde como um todo.
 
 ## Problema
 
 Agendar exames e consultas médicas muitas vezes é um processo complicado e demorado. Os pacientes frequentemente enfrentam dificuldades para encontrar horários disponíveis, preencher formulários, e seguir os procedimentos necessários para agendar uma consulta.
+
 Com isso, Consultas e exames atrasados significam que os recursos médicos não são utilizados da melhor maneira possível, o que pode levar a uma sobrecarga nos hospitais e clínicas.
 Além disso, a falta de informações sobre os procedimentos de agendamento e os recursos disponíveis é um obstáculo adicional para os pacientes. Muitas vezes, não têm acesso a informações claras e atualizadas sobre os protocolos necessários para dar continuidade no agendamento.
 
