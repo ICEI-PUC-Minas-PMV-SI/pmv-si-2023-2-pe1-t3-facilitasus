@@ -17,21 +17,23 @@ Além disso, a falta de informações sobre os procedimentos de agendamento e os
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Facilitar o Agendamento Eficiente: O primeiro objetivo é criar uma plataforma que permita aos pacientes agendar exames e consultas médicas de forma rápida e eficiente. Isso envolve a implementação de um sistema intuitivo que permita aos pacientes verificar a disponibilidade de datas e horários, escolher entre uma variedade de profissionais de saúde e selecionar locais de atendimento, como clínicas, hospitais ou postos de saúde. A simplicidade e a agilidade na marcação serão prioridades, visando eliminar os obstáculos tradicionais do processo de agendamento.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Fornecer Informações Claras e Úteis: Além disso, o projeto tem como objetivo fornecer informações abrangentes sobre os protocolos e requisitos necessários para evitar atrasos no agendamento de consultas e exames. Isso incluirá informações detalhadas sobre documentação necessária, preparação prévia para exames, orientações sobre como chegar aos locais de atendimento e outras instruções relevantes. A clareza dessas informações visa eliminar a falta de informação como uma barreira para o agendamento eficaz.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Porquê do Projeto:
+Atualmente, o processo de agendamento é complexo e demorado, resultando em longas filas de espera, atrasos no diagnóstico e tratamento, insatisfação dos pacientes e uso ineficiente dos recursos de saúde. Essa ineficiência custa caro tanto para o Sistema Único de Saúde (SUS) quanto para as redes privadas de saúde. Portanto, o projeto visa abordar esses desafios fundamentais, incluindo a falta de informações sobre os protocolos.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+O Que Quer Alcançar:
+O objetivo central deste projeto é criar uma solução que simplifique e otimize o processo de agendamento, beneficiando tanto o setor público quanto o privado da saúde. No caso do SUS, almeja-se reduzir significativamente as filas de espera, proporcionar acesso mais rápido a consultas e exames, agilizar diagnósticos e tratamentos, melhorar a satisfação dos pacientes e otimizar a alocação de recursos escassos. Além disso, a solução incluirá informações detalhadas sobre os protocolos de agendamento, ajudando os pacientes a evitar atrasos e problemas devido à falta de informação. Para as redes privadas, busca-se aumentar a eficiência operacional das clínicas e hospitais, aprimorar a experiência do paciente, aumentar a produtividade dos profissionais de saúde e manter a competitividade no mercado de saúde.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Quem se Destina:
+Este projeto se destina a todos os envolvidos no processo de agendamento de exames e consultas médicas. Isso inclui pacientes que buscam atendimento médico, profissionais de saúde que fornecem serviços médicos e administradores de sistemas de saúde, sejam eles do setor público (como o SUS) ou do setor privado (clínicas, hospitais e redes de saúde privadas). A solução é projetada para ser acessível a uma ampla variedade de perfis de usuários, incluindo aqueles com necessidades especiais, garantindo a equidade no acesso aos cuidados de saúde.
+
+Sustentação:
+A melhoria do acesso aos cuidados de saúde, a otimização de recursos, a promoção da eficiência operacional e a inclusão de informações detalhadas sobre protocolos são metas que se alinham com as necessidades urgentes do setor de saúde. Além disso, a sustentação é reforçada pela crescente demanda da sociedade por soluções tecnológicas que tornem os serviços de saúde mais acessíveis, eficientes e informativos. Portanto, a implementação bem-sucedida deste projeto está diretamente ligada à melhoria da qualidade de vida dos pacientes, à redução de custos para os sistemas de saúde e à criação de valor para toda a comunidade envolvida no atendimento médico.
 
 ## Público-Alvo
 
