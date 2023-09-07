@@ -37,13 +37,20 @@ A melhoria do acesso aos cuidados de saúde, a otimização de recursos, a promo
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Pacientes:
+Conhecimentos Prévios: Varia amplamente, desde pacientes com experiência em tecnologia até aqueles com pouca familiaridade.
+Relação com a Tecnologia: Diferentes níveis de habilidades digitais, desde usuários avançados de smartphones e aplicativos até aqueles que podem ter acesso limitado à tecnologia.
+Expectativas: Esperam que a aplicação seja intuitiva, fácil de usar e forneça informações claras sobre o processo de agendamento e os protocolos envolvidos.
+Motivações: Buscam agendar consultas e exames de forma conveniente, evitar atrasos devido a falta de informações e obter atendimento médico oportuno.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+Profissionais de Saúde:
+Conhecimentos Prévios: Possuem conhecimento médico e técnico relacionado ao agendamento de consultas e exames.
+Relação com a Tecnologia: Dependendo da função, podem ter diferentes níveis de experiência tecnológica.
+Expectativas: Esperam uma ferramenta eficiente que facilite o agendamento e forneça informações relevantes sobre os pacientes e as consultas/exames.
+Motivações: Desejam otimizar a agenda de atendimento, reduzir a burocracia administrativa e melhorar a qualidade do atendimento.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Pessoal de Apoio e Atendimento ao Cliente:
+Conhecimentos Prévios: Geralmente têm um bom entendimento das operações internas das instituições de saúde.
+Relação com a Tecnologia: Podem precisar de treinamento específico para operar a solução.
+Expectativas: Esperam que a aplicação facilite seu trabalho, ajudando na coordenação e no atendimento ao cliente.
+Motivações: Desejam oferecer um serviço de qualidade aos pacientes, reduzir a carga administrativa e melhorar a comunicação interna.
