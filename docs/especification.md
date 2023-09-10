@@ -10,7 +10,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 2 - Carlos Santos, 42 anos, é um trabalhador autônomo e pai de três filhos. Ele deseja agendar uma consulta médica pelo SUS e precisa entender claramente os protocolos e documentos necessários para evitar contratempos. <br>
 3 - Dra. Ana Oliveira, 38 anos, é uma médica com uma clínica privada. Ela precisa de uma solução que lhe permita gerenciar eficazmente seu calendário de consultas para manter sua agenda organizada e assegurar que tenha tempo suficiente para preparação entre as consultas. <br>
 4 - Dona Joana Souza, 75 anos, é uma idosa que prefere métodos tradicionais de agendamento. Ela deseja a opção de ligar para um número de telefone e falar com um assistente virtual para agendar uma consulta médica, evitando a necessidade de usar a internet. <br>
-5 - Joana Ferreira, 29 anos, trabalha como atendente em uma clínica médica. Ela precisa de acesso fácil às informações de agendamento dos pacientes para fornecer assistência rápida, confirmar horários ou reagendar consultas conforme necessário. <br>
+5 - Carolina Ferreira, 29 anos, trabalha como atendente em uma clínica médica. Ela precisa de acesso fácil às informações de agendamento dos pacientes para fornecer assistência rápida, confirmar horários ou reagendar consultas conforme necessário. <br>
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
