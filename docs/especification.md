@@ -21,7 +21,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | Paciente do SUS         | Agendar uma consulta com médico              | Acesso rápido e remoto                     |
 | Paciente do SUS         | Entender sobre os protocolos do SUS          | Informação sobre os protocolos             |
 | Paciente do SUS         | Agendar de forma tradicional ou por telefone | Falta de informação sobre a internet       |
-|-------------------------|----------------------------------------------|--------------------------------------------|
 | Médica de Rede Privada  | Manter agenda de pacientes organizada        | Informação sobre as consultas              |
 | Atendente do SUS        | Acesso fácil ás informações dos pacientes    | Informação sobre as consultas e horários   |
 |-------------------------|----------------------------------------------|--------------------------------------------|
@@ -37,7 +36,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-001    | Permitir que o usuário agende consulta               |    ALTA      |
 |RF-002    | Permitir que o usuário saiba os horários disponíveis |    ALTA      |
 |RF-003    | Gerar uma confirmação de agendamento para o paciente |    ALTA      |
-|----------|------------------------------------------------------|--------------|
 |RF-004    | Acessar e gerenciar seus calendários de consultas    |    ALTA      |
 |RF-005    | Agendamento por telefone, com assistente virtual     |    MÉDIA     |
 |RF-005    | Visualização das informações de protocolos           |    MÉDIA     |
