@@ -33,20 +33,29 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | ID       |      Descrição do Requisito                          |  Prioridade  |
 |----------|------------------------------------------------------|--------------|
 |RF-001    | Permitir que o usuário agende consulta               |    ALTA      |
-|RF-002    | Permitir que o usuário saiba os horários disponíveis |    ALTA      |
-|RF-003    | Gerar uma confirmação de agendamento para o paciente |    ALTA      |
-|RF-004    | Acessar e gerenciar seus calendários de consultas    |    ALTA      |
-|RF-005    | Agendamento por telefone, com assistente virtual     |    MÉDIA     |
-|RF-006    | Visualização das informações de protocolos           |    MÉDIA     |
-|RF-007    | acessar informações de agendamento para ajudar os pacientes.| ALTA  |
+|RF-002    | Visualização dos horários disponíveis                |    ALTA      |
+|RF-003    | Visualização das informações de protocolos           |    ALTA      |
+|RF-004    | Acessar informações de agendamento para ajudar os pacientes.| ALTA  |
+|RF-005    | Acessar e gerenciar seus calendários de consultas    |    ALTA      |
+|RF-006    | Agendamento por telefone, com assistente virtual     |    MÉDIA     |
+ RF-007     | Os atendentes devem poder confirmar ou reagendar consultas conforme necessário.| MÉDIA |
+|RF-008    | Gerar uma confirmação de agendamento para o paciente |    BAIXA     |
+
+## Requisitos f
 
 
 ### Requisitos não Funcionais
 
 | ID       |              Descrição do Requisito                                 |  Prioridade  |
 |----------|---------------------------------------------------------------------|--------------|
-|RNF-001| interface deve ser intuitiva e fácil de usar para todas pessoas        |    ALTA      |
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| Interface deve ser intuitiva e fácil de usar para todas pessoas        |    ALTA      |
+|RNF-002| Responder de forma rápida e eficiente, minimizando o tempo de espera.  |  ALTA        | 
+|RNF-003| Os dados dos pacientes devem ser protegidos e armazenados com privacidade | ALTA |
+|RNF-004| O sistema deve ser acessível por meio de diferentes dispositivos, como computadores, smartphones e telefones. | ALTA |
+|RNF-005| A plataforma de agendamento deve estar disponível 24/7 para os pacientes agendarem consultas a qualquer momento. | MÉDIA |
+|RNF-005| AO sistema deve suportar simultaneamente um grande número de usuários agendando consultas. | MÉDIA |
+
+
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
@@ -71,6 +80,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
+|03| A equipe para o projeto é limitada em termos de tamanho e experiência técnica |
+|04| Restrito a usar um conjunto específico de tecnologias e ferramentas para o desenvolvimento da solução, visto a falta de conhecimento |
+|05| Dada a combinação de restrições, pode ser necessário reduzir o escopo original do projeto |
+|06| Devido ao tempo e recursos limitados, o suporte a vários idiomas pode não ser viável inicialmente, limitando-se a um idioma específico. |
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
