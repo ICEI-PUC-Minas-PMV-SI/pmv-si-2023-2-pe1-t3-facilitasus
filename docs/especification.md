@@ -38,6 +38,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-004    | Acessar e gerenciar seus calendários de consultas    |    ALTA      |
 |RF-005    | Agendamento por telefone, com assistente virtual     |    MÉDIA     |
 |RF-006    | Visualização das informações de protocolos           |    MÉDIA     |
+|RF-007    | acessar informações de agendamento para ajudar os pacientes.| ALTA  |
 
 
 ### Requisitos não Funcionais
