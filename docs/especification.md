@@ -41,9 +41,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
  RF-007     | Os atendentes devem poder confirmar ou reagendar consultas conforme necessário.| MÉDIA |
 |RF-008    | Gerar uma confirmação de agendamento para o paciente |    BAIXA     |
 
-## Requisitos f
-
-
 ### Requisitos não Funcionais
 
 | ID       |              Descrição do Requisito                                 |  Prioridade  |
