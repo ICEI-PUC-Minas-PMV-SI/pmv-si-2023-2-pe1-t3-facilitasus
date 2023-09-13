@@ -49,7 +49,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-002| Responder de forma rápida e eficiente, minimizando o tempo de espera.  |  ALTA        | 
 |RNF-003| Os dados dos pacientes devem ser protegidos e armazenados com privacidade | ALTA |
 |RNF-004| O sistema deve ser acessível por meio de diferentes dispositivos, como computadores, smartphones e telefones. | ALTA |
-|RNF-005| AO sistema deve suportar simultaneamente um grande número de usuários agendando consultas. | MÉDIA |
+|RNF-005| O sistema deve suportar simultaneamente um grande número de usuários agendando consultas. | MÉDIA |
 |RNF-006| A plataforma de agendamento deve estar disponível 24/7 para os pacientes agendarem consultas a qualquer momento. | MÉDIA |
 
 ## Restrições
