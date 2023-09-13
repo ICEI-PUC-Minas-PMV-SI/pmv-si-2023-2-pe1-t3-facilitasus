@@ -1,6 +1,7 @@
 # Especificações do Projeto
 
 O primeiro objetivo é criar uma plataforma que permita aos pacientes agendar exames e consultas médicas de forma rápida e eficiente. Isso envolve a implementação de um sistema intuitivo que permita aos pacientes verificar a disponibilidade de datas e horários, escolher entre uma variedade de profissionais de saúde e selecionar locais de atendimento, como clínicas, hospitais ou postos de saúde. A simplicidade e a agilidade na marcação serão prioridades, visando eliminar os obstáculos tradicionais do processo de agendamento.
+Além disso, o projeto tem como objetivo fornecer informações abrangentes sobre os protocolos e requisitos necessários para evitar atrasos no agendamento de consultas e exames. Isso incluirá informações detalhadas sobre documentação necessária, preparação prévia para exames, orientações sobre como chegar aos locais de atendimento e outras instruções relevantes. A clareza dessas informações visa eliminar a falta de informação como uma barreira para o agendamento eficaz.
 
 ## Personas
 
