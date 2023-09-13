@@ -32,9 +32,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 | ID       |      Descrição do Requisito                          |  Prioridade  |
 |----------|------------------------------------------------------|--------------|
-|RF-001    | Permitir que o usuário agende consulta               |    ALTA      |
-|RF-002    | Visualização dos horários disponíveis                |    ALTA      |
-|RF-003    | Visualização das informações de protocolos           |    ALTA      |
+|RF-001    | Permitir que pacientes agendem consultas com médicos de sua escolha             |    ALTA      |
+|RF-002    | Visualizar os horários disponíveis para as consultas            |    ALTA      |
+|RF-003    | Visualização das informações de protocolos         |    ALTA      |
 |RF-004    | Acessar informações de agendamento para ajudar os pacientes.| ALTA  |
 |RF-005    | Acessar e gerenciar seus calendários de consultas    |    ALTA      |
 |RF-006    | Agendamento por telefone, com assistente virtual     |    MÉDIA     |
