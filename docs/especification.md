@@ -38,7 +38,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-004    | Acessar informações de agendamento para ajudar os pacientes.| ALTA  |
 |RF-005    | Acessar e gerenciar seus calendários de consultas    |    ALTA      |
 |RF-006    | Agendamento por telefone, com assistente virtual     |    MÉDIA     |
- RF-007     | Os atendentes devem poder confirmar ou reagendar consultas conforme necessário.| MÉDIA |
+|RF-007     | Os atendentes devem poder confirmar ou reagendar consultas conforme necessário.| MÉDIA |
 |RF-008    | Gerar uma confirmação de agendamento para o paciente |    BAIXA     |
 
 ### Requisitos não Funcionais
@@ -61,6 +61,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
 |03| A equipe para o projeto é limitada em termos de tamanho e experiência técnica |
-|04| Restrito a usar um conjunto específico de tecnologias e ferramentas para o desenvolvimento da solução, visto a falta de conhecimento |
-|05| Dada a combinação de restrições, pode ser necessário reduzir o escopo original do projeto |
+|04| Dada a combinação de restrições, pode ser necessário reduzir o escopo original do projeto |
+|05| Restrito a usar um conjunto específico de tecnologias e ferramentas para o desenvolvimento da solução, visto a falta de conhecimento |
 |06| Devido ao tempo e recursos limitados, o suporte a vários idiomas pode não ser viável inicialmente, limitando-se a um idioma específico. |
