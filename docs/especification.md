@@ -1,8 +1,6 @@
 # Especificações do Projeto
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+O primeiro objetivo é criar uma plataforma que permita aos pacientes agendar exames e consultas médicas de forma rápida e eficiente. Isso envolve a implementação de um sistema intuitivo que permita aos pacientes verificar a disponibilidade de datas e horários, escolher entre uma variedade de profissionais de saúde e selecionar locais de atendimento, como clínicas, hospitais ou postos de saúde. A simplicidade e a agilidade na marcação serão prioridades, visando eliminar os obstáculos tradicionais do processo de agendamento.
 
 ## Personas
 
