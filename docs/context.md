@@ -33,12 +33,15 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Segundo pesquisa realizada no ano de 2019 pelo Instituto Brasileiro de Geografia e Estatística (IBGE), publicado pela matéria do Site _NewsLab_ no ano de 2022, cerca de 71,5% dos brasileiros dependem do Sistema Único de Saúde (SUS), o que representa cerca de 150 milhões de pessoas que vivenciam as dificuldades de marcarem e realizarem consultas e exames médicos.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Regulamento no ano de 1990, o SUS visa promover a justiça social e superar as desigualdades na assistência médica à saúde da população. Contudo, na prática, o serviço acontece aquém do que de fato deveria. Uma evidência de tal informação é encontrada em uma reportagem realizada pelo Portal _G1_ de notícias que mostra que um paciente na periferia da cidade de São Paulo espera até 4 vezes mais para marcar uma consulta se comparado ao centro. Esperas para exames com especialistas chegam a levar 12 meses para serem agendadas. E uma das justificativas para isso é o número inferior de médicos que trabalham nas regiões mais pobres, seja pela falta de segurança, ou pelo período de deslocamento necessário para chegar aos postos de saúde.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Contudo, o problema de saúde pública enfrentada pela maioria dos brasileiros não se resume à espera. Um artigo publicado pelo site _Saúde Business_ levanta que 70% dos brasileiros que utilizam o SUS deixaram de fazer consultas, exames e/ou tomar vacinas por falta de algum documento e mais da metade afirmaram ter tido prejuízos financeiros relacionados ao caso. Isso demonstra que, além da demora nas filas de atendimento, há uma falta de clareza no que é necessário para realizar tais procedimentos.
+
+Diante de tais informações, é notável como o processo de agendamento é complexo e como há uma falta de profissionais capacitados, ocasionando longas e demoradas filas de espera, o que, por sua vez, resulta em atrasos no diagnóstico e tratamento de doenças, insatisfação dos pacientes e o uso ineficiente dos recursos de saúde.
+
+Portanto, entende-se que a melhoria do acesso aos cuidados de saúde, a otimização de recursos, a melhoria da eficiência operacional e a inclusão de informações detalhadas sobre protocolos de atendimento são metas que se alinham com as necessidades da população para uma melhor integração entre as políticas de saúde públicas e os brasileiros. Além disso, a sustentação é reforçada pela crescente demanda da sociedade por soluções tecnológicas que tornem os serviços de saúde mais acessíveis, eficientes e informativos. Assim, a implementação bem-sucedida deste projeto está diretamente ligada à melhoria da qualidade de vida dos pacientes, à redução de custos para os sistemas de saúde e à criação de valor para toda a comunidade envolvida no atendimento médico.
 
 ## Público-Alvo
 
