@@ -4,10 +4,14 @@ O objetivo principal é criar uma plataforma de agendamento médico eficiente, c
 
 ## Personas
 
-1 - Maria Silva, 35 anos, é mãe de duas crianças e trabalha em período integral. Ela tem uma vida agitada e precisa de um sistema de agendamento de consultas que seja rápido e eficiente para gerenciar sua saúde e a de sua família. <br>
-2 - Carlos Santos, 42 anos, é um trabalhador autônomo e pai de três filhos. Ele deseja agendar uma consulta médica pelo SUS e precisa entender claramente os protocolos e documentos necessários para evitar contratempos. <br>
-3 - Dra. Ana Oliveira, 38 anos, é uma médica com uma clínica privada. Ela precisa de uma solução que lhe permita gerenciar eficazmente seu calendário de consultas para manter sua agenda organizada e assegurar que tenha tempo suficiente para preparação entre as consultas. <br>
-4 - Dona Joana Souza, 75 anos, é uma idosa que prefere métodos tradicionais de agendamento. Ela deseja a opção de ligar para um número de telefone e falar com um assistente virtual para agendar uma consulta médica, evitando a necessidade de usar a internet. <br>
+1 - Maria Silva, 35 anos, é mãe de duas crianças e trabalha em período integral. Ela tem uma vida agitada e precisa de um sistema de agendamento de consultas que seja rápido e eficiente para gerenciar sua saúde e a de sua família.
+
+2 - Carlos Santos, 42 anos, é um trabalhador autônomo e pai de três filhos. Ele deseja agendar uma consulta médica pelo SUS e precisa entender claramente os protocolos e documentos necessários para evitar contratempos
+
+3 - Dra. Ana Oliveira, 38 anos, é uma médica com uma clínica privada. Ela precisa de uma solução que lhe permita gerenciar eficazmente seu calendário de consultas para manter sua agenda organizada e assegurar que tenha tempo suficiente para preparação entre as consultas
+
+4 - Dona Joana Souza, 75 anos, é uma idosa que prefere métodos tradicionais de agendamento. Ela deseja a opção de ligar para um número de telefone e falar com um assistente virtual para agendar uma consulta médica, evitando a necessidade de usar a internet.
+
 5 - Carolina Ferreira, 29 anos, trabalha como atendente em uma clínica médica. Ela precisa de acesso fácil às informações de agendamento dos pacientes para fornecer assistência rápida, confirmar horários ou reagendar consultas conforme necessário. <br>
 
 ## Histórias de Usuários
