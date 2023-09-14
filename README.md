@@ -10,11 +10,11 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Jordan Ítalo Amaral F. C. Vicente
-* Nome completo do aluno 4
-* Nome completo do aluno 5
+* Gabriel Ferreira dos Santos
+* Jordan Ítalo Amaral Faria Correia Vicente
+* Karoline Celeste Muruci
+* Lucas Moreira de Abreu
+* Davih Gonçalves Duque
 
 ## Orientador
 
