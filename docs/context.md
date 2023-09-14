@@ -1,54 +1,56 @@
 # Introdução
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
+O contexto em que este projeto se insere envolve questões relacionadas ao agendamento de exames e consultas médicas no Brasil. Esse processo tem sido historicamente complexo e demorado, afetando tanto os pacientes quanto o sistema de saúde como um todo.
 
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
+A complexidade do agendamento pode resultar em atrasos no diagnóstico e tratamento médico inadequado, o que tem sérias implicações para a saúde dos pacientes. Além disso, a falta de informações claras e acessíveis torna ainda mais difícil para os pacientes navegarem pelo sistema de saúde e agendarem suas consultas e exames de forma eficaz.
 
+Esses desafios afetam não apenas os indivíduos que buscam cuidados médicos, mas também sobrecarregam o sistema de saúde, desperdiçando recursos preciosos e contribuindo para a ineficiência geral.
 
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
-
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
+Portanto, a otimização do processo de agendamento de consultas e exames médicos é um aspecto crítico para melhorar o acesso aos cuidados de saúde e a qualidade dos serviços oferecidos, visando aprimorar o sistema de saúde como um todo.
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+Agendar exames e consultas médicas muitas vezes é um processo complicado e demorado. Os pacientes frequentemente enfrentam dificuldades para encontrar horários disponíveis, preencher formulários, e seguir os procedimentos necessários para agendar uma consulta.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Com isso, Consultas e exames atrasados significam que os recursos médicos não são utilizados da melhor maneira possível, o que pode levar a uma sobrecarga nos hospitais e clínicas.
+Além disso, a falta de informações sobre os procedimentos de agendamento e os recursos disponíveis é um obstáculo adicional para os pacientes. Muitas vezes, não têm acesso a informações claras e atualizadas sobre os protocolos necessários para dar continuidade no agendamento.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O primeiro objetivo é criar uma plataforma que permita aos pacientes agendar exames e consultas médicas de forma rápida e eficiente. Isso envolve a implementação de um sistema intuitivo que permita aos pacientes verificar a disponibilidade de datas e horários, escolher entre uma variedade de profissionais de saúde e selecionar locais de atendimento, como clínicas, hospitais ou postos de saúde. A simplicidade e a agilidade na marcação serão prioridades, visando eliminar os obstáculos tradicionais do processo de agendamento. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Além disso, o projeto tem como objetivo fornecer informações abrangentes sobre os protocolos e requisitos necessários para evitar atrasos no agendamento de consultas e exames. Isso incluirá informações detalhadas sobre documentação necessária, preparação prévia para exames, orientações sobre como chegar aos locais de atendimento e outras instruções relevantes. A clareza dessas informações visa eliminar a falta de informação como uma barreira para o agendamento eficaz.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Porquê do Projeto:
+Atualmente, o processo de agendamento é complexo e demorado, resultando em longas filas de espera, atrasos no diagnóstico e tratamento, insatisfação dos pacientes e uso ineficiente dos recursos de saúde. Essa ineficiência custa caro tanto para o Sistema Único de Saúde (SUS) quanto para as redes privadas de saúde. Portanto, o projeto visa abordar esses desafios fundamentais, incluindo a falta de informações sobre os protocolos.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+O Que Quer Alcançar:
+O objetivo central deste projeto é criar uma solução que simplifique e otimize o processo de agendamento, beneficiando tanto o setor público quanto o privado da saúde. No caso do SUS, almeja-se reduzir significativamente as filas de espera, proporcionar acesso mais rápido a consultas e exames, agilizar diagnósticos e tratamentos, melhorar a satisfação dos pacientes e otimizar a alocação de recursos escassos. Além disso, a solução incluirá informações detalhadas sobre os protocolos de agendamento, ajudando os pacientes a evitar atrasos e problemas devido à falta de informação. Para as redes privadas, busca-se aumentar a eficiência operacional das clínicas e hospitais, aprimorar a experiência do paciente, aumentar a produtividade dos profissionais de saúde e manter a competitividade no mercado de saúde.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Quem se Destina:
+Este projeto se destina a todos os envolvidos no processo de agendamento de exames e consultas médicas. Isso inclui pacientes que buscam atendimento médico, profissionais de saúde que fornecem serviços médicos e administradores de sistemas de saúde, sejam eles do setor público (como o SUS) ou do setor privado (clínicas, hospitais e redes de saúde privadas). A solução é projetada para ser acessível a uma ampla variedade de perfis de usuários, incluindo aqueles com necessidades especiais, garantindo a equidade no acesso aos cuidados de saúde.
+
+Sustentação:
+A melhoria do acesso aos cuidados de saúde, a otimização de recursos, a promoção da eficiência operacional e a inclusão de informações detalhadas sobre protocolos são metas que se alinham com as necessidades urgentes do setor de saúde. Além disso, a sustentação é reforçada pela crescente demanda da sociedade por soluções tecnológicas que tornem os serviços de saúde mais acessíveis, eficientes e informativos. Portanto, a implementação bem-sucedida deste projeto está diretamente ligada à melhoria da qualidade de vida dos pacientes, à redução de custos para os sistemas de saúde e à criação de valor para toda a comunidade envolvida no atendimento médico.
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Pacientes:
+Conhecimentos Prévios: Varia amplamente, desde pacientes com experiência em tecnologia até aqueles com pouca familiaridade.
+Relação com a Tecnologia: Diferentes níveis de habilidades digitais, desde usuários avançados de smartphones e aplicativos até aqueles que podem ter acesso limitado à tecnologia.
+Expectativas: Esperam que a aplicação seja intuitiva, fácil de usar e forneça informações claras sobre o processo de agendamento e os protocolos envolvidos.
+Motivações: Buscam agendar consultas e exames de forma conveniente, evitar atrasos devido a falta de informações e obter atendimento médico oportuno.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+Profissionais de Saúde:
+Conhecimentos Prévios: Possuem conhecimento médico e técnico relacionado ao agendamento de consultas e exames.
+Relação com a Tecnologia: Dependendo da função, podem ter diferentes níveis de experiência tecnológica.
+Expectativas: Esperam uma ferramenta eficiente que facilite o agendamento e forneça informações relevantes sobre os pacientes e as consultas/exames.
+Motivações: Desejam otimizar a agenda de atendimento, reduzir a burocracia administrativa e melhorar a qualidade do atendimento.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Pessoal de Apoio e Atendimento ao Cliente:
+Conhecimentos Prévios: Geralmente têm um bom entendimento das operações internas das instituições de saúde.
+Relação com a Tecnologia: Podem precisar de treinamento específico para operar a solução.
+Expectativas: Esperam que a aplicação facilite seu trabalho, ajudando na coordenação e no atendimento ao cliente.
+Motivações: Desejam oferecer um serviço de qualidade aos pacientes, reduzir a carga administrativa e melhorar a comunicação interna.
