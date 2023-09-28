@@ -100,4 +100,4 @@ RF-003: Visualização das informações de protocolos;
 \
 RF-008	Gerar uma confirmação de agendamento para o paciente.
 \
-![Exemplo de Wireframe](main/MensagensPage.png)
+![Exemplo de Wireframe](main/AtendimentoPage.png)
