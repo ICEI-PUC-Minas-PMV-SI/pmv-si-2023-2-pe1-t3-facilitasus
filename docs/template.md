@@ -26,7 +26,7 @@ A cor azul foi escolhida com base a cor da logo do SUS, e também, por conta de 
 ### Fonte: Bai JamJuree
 
 ### Justificativa
-Uma fonte moderna de fácil leitura que se mosotra muito limpa com o layout onde está inserida.
+Uma fonte moderna de fácil leitura que se mostra muito limpa com o layout onde está inserida.
 
 Hierarquia | Tamanho | Estilo | Cor
 Título do tópico | 20px | Negrito & Itálico | #4F5154
