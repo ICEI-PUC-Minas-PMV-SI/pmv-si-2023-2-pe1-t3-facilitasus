@@ -7,32 +7,30 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## User Flow
 
-![Exemplo de UserFlow](img/userflow.jpg)
+![Exemplo de UserFlow](main/UserFlow_1920.png)
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
-
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
-
+Acima, temos as telas da nossa aplicação, que mapeiam o fluxo do usuário e incluem um total de 6 páginas alinhadas com os requisitos. Essa técnica permite ao desenvolvedor e aos membros da equipe visualizarem os caminhos e as possíveis ações que o usuário pode realizar.
 
 ## Wireframes
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
 
-### Exemplo
+### Tela de Login
+A tela de login é a primeira tela, onde os usuários podem inserir seu e-mail e senha. Há opções para ir para a HomePage (após a autenticação bem-sucedida) ou criar uma nova conta.
+Importante para efetivação de requisitos funcionais como: 
+\
+RF-004: Acessar informações de agendamento para ajudar os pacientes; 
+RF-005: Acessar e gerenciar seus calendários de consultas; 
+RF-006: Agendamento por telefone, com assistente virtual.
+\
+Além dos requisitos de outras telas, visto que sem login, sem aplicação.
+\
+\
+![Exemplo de Wireframe](main/LoginPage.png)
 
-A tela Inicial apresenta um menu lateral com as principais seções do portal, enquanto a navigation bar, ao topo, apresenta informações de envio de imagens ou navegação pela galeria de fotos. A área central apresenta a galeria de fotos na forma de uma grade.
+### Tela de Registro
+A tela de login é a tela alternativa da Tela de Login, onde os usuários podem inserir seu nome, seu e-mail e senha. Há opções para ir para a HomePage (após a autenticação bem-sucedida) ou voltar para Tela de Login.
+Como uma alternativa da Tela de Login, essa página carrega também os requisitos anteriores. 
+Além dos requisitos de outras telas, visto que sem login, sem aplicação.
 
-![Exemplo de Wireframe](img/wireframe-example.png)
-
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+![Exemplo de Wireframe](main/SignInPage.png)
