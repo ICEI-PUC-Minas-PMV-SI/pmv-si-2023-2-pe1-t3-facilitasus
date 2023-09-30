@@ -1,0 +1,159 @@
+/* Importando fontes */
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&display=swap');
+
+/* Resetando os estilos padroes do CSS */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+
+    /* Ativando a fonte */
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 500;
+}
+
+
+/* Estilos para a div HEADER */
+.header {
+    
+    /* Torna conteiner flexivel  */
+    display: flex;
+
+    /* Alinha centralizando verticalmente */
+    align-items: center;
+
+    /* Coloca espaco entre os elementos filhos */
+    justify-content: space-between;
+
+    /* Adiciona espaco em branco 10px no topo e embaixo e 25px aos lados  */
+    padding: 10px 25px;
+
+    /* Adiciona uma linha na parte inferior */
+    border-bottom: 2px solid #A7BFDE; 
+}
+
+/* Estilos para a div HEADER_ICONS */
+.header_icons {
+    /* Torna conteiner flexivel  */
+    display: flex;
+
+    /* Organiza os elementos na horizontal */
+    flex-direction: row;
+
+    /* Alinha centralizando verticalmente */
+    align-items: center;
+
+    /* Espaco de 40px entre eles */
+    gap: 40px;
+
+    /* Centraliza horizontalmente a div no header */
+    margin: 0 auto;
+
+}
+
+.header_icons img {
+    /* Define largura e altura para as imagens */
+    width: 60px;
+    height: 55px;
+
+    /* Define como elementos de bloco para ser flexivel */
+    display: flex;
+
+    /* Centraliza horizontalmente */
+    margin: 0 auto;
+
+}
+
+.header_icons a.active {
+    color: #5B5C60;
+    font-weight: 700;
+}
+
+/* Edita as palavras abaixo dos icones */
+.header_icons p {
+    /* Adiciona espaco em branco em cima do p */
+    padding-top: 10px;
+
+    /* Alinha horizontalmente */
+    text-align: center;
+}
+
+/* Estilos para cada ícone no HEADER_ICONS */
+.header_icons a {
+    /* Alinha horizontalmente */
+    text-align: center;
+
+    /* Define a grossura da fonte */
+    font-weight: 500;
+    
+    /* Define a cor e tamanho da fonte */
+    color: #2864AE;
+    font-size: 18px;
+}
+
+.main h1 {
+    font-weight: 700;
+    font-size: 20px;
+    font-style: italic;
+
+    color: #4F5154;
+}
+
+.main h2 {
+    padding-top: 10px;
+
+    font-weight: 600;
+    font-size: 18px;
+    font-style: italic;
+    text-align: left;
+
+    color: #2864AE;
+}
+
+.main a {
+    color: #5B5C60;
+    text-decoration: none;
+
+    font-size: 16px;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    /* Alinha os elementos no topo */
+    align-items: flex-start;
+}
+
+.sidebar {
+    padding: 10px 15px;
+
+    /* Largura com 40% do disponivel */
+    width: 40%;
+
+    /* Altura com 100% do disponivel */
+    height: 100vh;
+}
+
+
+.posts {
+    /* Define a largura do container de protocolos */
+    width:100%; 
+    height: 100vh;
+
+    padding: 10px 15px;    
+
+    display: flex;
+    flex-direction: column;
+
+    border-right: 2px solid #B6C2D9;
+    border-left: 2px solid #B6C2D9;
+
+}
+
+.others {
+    /* Mesma largura da .sidebar */
+    width: 40%;
+    padding: 10px 15px;
+    height: 100vh; /* Mantém a altura da tela inteira */
+}

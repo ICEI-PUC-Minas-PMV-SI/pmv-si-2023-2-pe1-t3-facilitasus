@@ -1,0 +1,144 @@
+/* Importando fontes */
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 500;
+}
+
+section {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+section .imgBg {
+    position: relative;
+
+    width: 60%;
+    height: 100%;
+}
+
+section .imgBg img {
+    
+    position: absolute;
+
+    padding: 15px;
+
+    width: 100%;
+    height: 100%;
+}
+
+section .content {
+    display: flex; 
+    
+    width: 40%;
+    height: 100%;
+
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+section .content .image img {
+    width: 150px;
+    height: auto;
+
+    margin: 20px 0;
+}
+
+section .content .form {
+    width: 60%;
+}
+
+section .content .form h2 {
+    color: #2864AE;
+
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+
+    margin-bottom: 20px;
+
+    border-bottom: 4px solid #A7BFDE;
+
+    display: inline-block;
+
+    letter-spacing: 1px;
+}
+
+section .content .form .input {
+    margin-bottom: 20px;
+}
+
+section .content .form .input span {
+   margin-bottom: 15px;
+   display: inline-block;
+    
+   font-size: 24px;
+
+
+   color: #2864AE;
+   letter-spacing: 2px;
+   font-weight: 800;
+ 
+}
+
+section .content .form .input input {
+    width: 100%;
+    padding: 15px 3%;
+    outline: none;
+    
+    border: 1px solid #A7BFDE;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #2864AE;
+    background: transparent;
+    border-radius: 30px;
+}
+
+section .content .form .input input[type = "submit"] {
+    width: 100%;
+    padding: 15px 3%;
+
+    font-size: 28px;
+
+    background: #2864AE; 
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+section .content .form .input input[type = "submit"]:hover {
+    
+    background-color: #387dd1;
+    transition-property: background-color;
+    transition-duration: 300ms;
+}
+
+section .content .form .remember  {
+    margin-bottom: 15px;
+    color: #2864AE;
+    
+}
+
+section .content .form .remember label {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+section .content .form .input p a{
+    color: #2864AE;
+    text-decoration: none;
+    font-weight: 700;
+}
