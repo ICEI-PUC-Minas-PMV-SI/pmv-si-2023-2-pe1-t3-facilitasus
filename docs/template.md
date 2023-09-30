@@ -6,8 +6,9 @@
 ### Aqui temos a Tela de Login
 ![Exemplo de UserFlow](main/LayoutResponsivo.png)
 
-
 Layout padrão do site (HTML e CSS) que será utilizado, pode ser visualizado em (src). Acima está as fotos pertinentes para visualização mais fácil.
+
+![Exemplo de UserFlow](../src/pages/home.html)
 
 ## Cores
 
