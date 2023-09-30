@@ -1,14 +1,15 @@
 # Template padrão do site
 
-### Aqui temos a Tela Principal
-![Exemplo de UserFlow](main/LayoutRes.png)
-
-### Aqui temos a Tela de Login
-![Exemplo de UserFlow](main/LayoutResponsivo.png)
 
 Layout padrão do site (HTML e CSS) que será utilizado, pode ser visualizado em (src). Acima está as fotos pertinentes para visualização mais fácil.
 
-![Exemplo de UserFlow](../src/pages/home.html)
+### Aqui temos a Tela de Login
+![Exemplo de UserFlow](main/LayoutResponsivo.png)
+[Clique Aqui para visualizar o código HTML](../src/pages/LoginPage/loginPage.html)
+
+### Aqui temos a Tela Principal
+![Exemplo de UserFlow](main/LayoutRes.png)
+[Clique Aqui para visualizar o código HTML](../src/pages/HomePage/home.html)
 
 ## Cores
 
@@ -29,12 +30,11 @@ A cor azul foi escolhida com base a cor da logo do SUS, e também, por conta de 
 ### Justificativa
 Uma fonte moderna de fácil leitura que se mostra muito limpa com o layout onde está inserida.
 
-Hierarquia | Tamanho | Estilo | Cor
-Título do tópico | 20px | Negrito & Itálico | #4F5154
-Título do campo  | 18px | Negrito & Itálico | #2864AE
-Paragráfo do campo | 16px | Normal | #4F5154
-
-
+|Hierarquia       | Tamanho     | Estilo | Cor 
+|--------------|-----------|------------| -------|
+| Título do tópico | 20px      | Negrito & Itálico        |#4F5154
+| Título do campo     | 18px  | Negrito & Itálico       |#2864AE
+|Paragráfo do campo   | 16px  | Normal | #4F5154
 ## Iconografia
 ![Exemplo de UserFlow](main/Icones.png)
 Icones do GOV e SUS: São icones fixos atualmente sem funcionalidade.
