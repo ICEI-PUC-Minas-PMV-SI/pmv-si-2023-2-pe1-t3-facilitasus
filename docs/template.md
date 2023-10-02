@@ -1,7 +1,7 @@
 # Template padrão do site
 
 
-Layout padrão do site (HTML e CSS) que será utilizado, pode ser visualizado em (src). Acima está as fotos pertinentes para visualização mais fácil.
+Layout padrão do site (HTML e CSS) que será utilizado, pode ser visualizado em (src). Abaixo está as fotos pertinentes para visualização mais fácil.
 
 ### Aqui temos a Tela de Login
 ![Exemplo de UserFlow](main/LayoutResponsivo.png)
