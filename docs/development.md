@@ -23,20 +23,37 @@ O professor Rommel Carneiro apresenta alguns exemplos prontos para serem utiliza
 
 As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais que relacionam o escopo do projeto com os artefatos criados:
 
-### Requisitos Funcionais
+### Requisitos Funcionais & Não Funcionais
 
 |ID    | Descrição do Requisito | Prioridade | Artefato Criado |
 |------|------------------------|------------|-----------------|
-|RF-001| O sistema deve exibir as notícias mais populares. | ALTA | index.html |
-|RF-002| Usuários autenticados podem registrar novas notícias. | ALTA | cadastro-noticia.html |
+|RF-001| Permitir que pacientes agendem consultas com médicos de sua escolha | ALTA | Atendimento.html |
+|RF-003| Visualização das informações de protocolos | ALTA | ProtocolosPage.html |
+|RNF-001| Interface deve ser intuitiva e fácil de usar para todas pessoas | ALTA | *.html |
+|RNF-002| Responder de forma rápida e eficiente, minimizando o tempo de espera | ALTA | *.html |
+|RNF-005| O sistema deve ser acessível por meio de diferentes dispositivos, como computadores, smartphones e telefones. | ALTA | *.html |
 
 ## Descrição das estruturas:
 
-## Notícia
+## Artigos
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (Inteiro)  | Identificador único da notícia            | 1                                              |
-| Título         | Texto             | Título da notícia                         | Sistemas de Informação PUC Minas é o melhor                                   |
-| Conteúdo       | Texto             | Conteúdo da notícia                       | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil                            |
-| Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
+| Título        | Texto             | Título do artigo                         | Saude da Criança                                   |
+| Resumo     | Texto             | Um resumo sobre o artigo                       | Orientações sobre a saúde da criança                            |
+| Link  | Link  | Resumo e Titulo são clicaveis e levam para o artigo |[Link do Artigo](https://conectesus-paciente.saude.gov.br/publico/conteudo/artigo/64751836fe0075001eeac796)|
+
+## Protocolos
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Imagem         | Imagem             | Imagem para cada protocolo                        | ![Exemplo de UserFlow](main/Documents.svg)                                   |
+| Título         | Texto             | Título do protocolo                         | Documentos necessários para marcação de exames                                  |
+| Conteúdo         | Texto             | Um conteúdo sobre o protocolo                      | Um artigo publicado pelo site Saúde Business...                            |
+| Links relevantes  | Link  | Links para adicionar com o protocolo |[Links](https://conectesus-paciente.saude.gov.br/publico/conteudo/artigo/64751836fe0075001eeac796)|
+
+## Notificações
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Título       | Texto             | Título da Mensagem                         | Mensagem                                   |
+| Tipo        | Texto             | Tipo da Mensagem                       |     Ajuda                     |
+| Conteúdo  | Texto  | Conteúdo da mensagem | Conteúdo da mensagemConteúdo da mensagem | 
 
