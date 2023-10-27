@@ -12,28 +12,43 @@ Acima, temos as telas da nossa aplicação, que mapeiam o fluxo do usuário e in
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
 
+### Todas as Telas
+**Todas as telas têm os seguintes requisitos não funcionais:
+\
+RNF-001	Garantir que todas as telas sejam responsivas, ajustando-se automaticamente para proporcionar uma experiência de usuário otimizada em dispositivos desktop, tablet e mobile.
+\
+RNF-002	Garantir que todas as operações, como carregamento de páginas, pesquisa de protocolos e envio de mensagens, sejam executadas de forma rápida e eficiente, proporcionando uma experiência do usuário sem atrasos perceptíveis.
+\
+RNF-005	Manter uma interface do usuário intuitiva e fácil de usar, com navegação clara e elementos de design consistentes em todas as telas.
+\
+RNF-006	A plataforma de agendamento deve estar disponível 24/7 para os pacientes agendarem consultas a qualquer momento.
+\
+
 ### Tela de Login
 A tela de login é a primeira tela, onde os usuários podem inserir seu e-mail e senha. Há opções para ir para a HomePage (após a autenticação bem-sucedida) ou criar uma nova conta.
 \
 **Importante para efetivação de requisitos funcionais como:**
+
+RF-004	Permitir que os usuários entrem em suas contas usando seu e-mail e senha.
 \
-RF-004: Acessar informações de agendamento para ajudar os pacientes; 
-\
-RF-005: Acessar e gerenciar seus calendários de consultas; 
-\
-RF-006: Agendamento por telefone, com assistente virtual.
+RF-005	Autenticar as credenciais dos usuários e redirecioná-los para a tela principal após o login bem-sucedido.
 \
 **Além dos requisitos de outras telas, visto que sem login, sem aplicação.**
-\
 \
 ![Exemplo de Wireframe](main/LoginPage.png)
 
 ### Tela de Registro
-A tela de login é a tela alternativa da Tela de Login, onde os usuários podem inserir seu nome, seu e-mail e senha. 
+A tela de registro é a tela alternativa da Tela de Login, onde os usuários podem inserir seu nome, seu e-mail e senha. 
 \
 Há opções para ir para a HomePage (após a autenticação bem-sucedida) ou voltar para Tela de Login.
 \
-Como uma alternativa da Tela de Login, essa página carrega também os requisitos anteriores.
+RF-001	Permitir que os usuários preencham campos obrigatórios, como nome, e-mail e senha, para criar uma conta.
+\
+RF-002	Validar os dados inseridos pelos usuários para evitar registros inválidos.
+\
+RF-003 Mostrar mensagem de confirmação após um novo usuário ter sido registrado com sucesso.
+\
+RNF-003	Garantir que as senhas dos usuários sejam armazenadas de forma segura, utilizando técnicas para proteger contra ataques de segurança.
 \
 **Além dos requisitos de outras telas, visto que sem login, sem aplicação.**
 \
@@ -46,19 +61,11 @@ No cabeçalho: Há opções de ir para a ProtocolosPage, tela dos protocolos; At
 \
 Com isso no corpo da página, temos: Título e frase sobre ArtigoX (tela exterior da aplicação e leva para o artigo escolhido); Título e resumo de ProtocoloX (tela do protocolo escolhido);  OutroX, tela de outro; 
 \
-**Importante para efetivação de requisitos funcionais e não funcionais como:**
+**Importante para efetivação de requisitos funcionais como:**
 \
-RNF-001: Interface deve ser intuitiva e fácil de usar para todas pessoas;
+RF-006	Permitir que os usuários interajam com os artigos, protocolos e outros elementos na tela principal.
 \
-RF-003: Visualização das informações de protocolos;
-\
-RNF-005	O sistema deve ser acessível por meio de diferentes dispositivos, como computadores, smartphones e telefones;
-\
-**Esses requisitos são presentes quando botão de notificação é clicado**
-RF-006	Agendamento por telefone, com assistente virtual para contato em geral;
-\
-RF-007	Os atendentes devem poder confirmar ou reagendar consultas conforme necessário;
-\
+RF-007	Implementar um sistema de notificação que atualiza quando o usuário recebe novas mensagens ou atualizações relevantes.
 ![Exemplo de Wireframe](main/HomePage.png)
 \
 Tela inicial com notificação clicado.
@@ -70,14 +77,9 @@ Essa tela repete o cabeçalho da Tela Principal, mas temos uma visão mais ampla
 \
 No corpo da página: Título e frase sobre ArtigoX (tela exterior da aplicação e leva para o artigo escolhido); Título e resumo de ProtocoloX (tela do protocolo escolhido).
 \
-**Importante para efetivação de requisitos funcionais e não funcionais como:**
+**Importante para efetivação de requisitos funcionais como:**
 \
-RNF-001: Interface deve ser intuitiva e fácil de usar para todas pessoas;
-\
-RNF-005	O sistema deve ser acessível por meio de diferentes dispositivos, como computadores, smartphones e telefones;
-\
-RF-003: Visualização das informações de protocolos;
-\
+RF-001: Exibir lista de protocolos e permitir que os usuários cliquem em um protocolo para visualizar detalhes.
 ![Exemplo de Wireframe](main/ProtocolosPage.png)
 
 ### Tela de Atendimento
@@ -85,16 +87,7 @@ Essa tela repete o cabeçalho da Tela Principal, mas temos uma visão para preen
 \
 No corpo da página: As mensagens já enviadas ou recebidas; Campo para inserir o título da mensagem; Campo de escolha para inserir o tipo de mensagem; Campo para inserir o corpo da mensagem; Botão para efetivar o envio.
 \
-**Importante para efetivação de requisitos funcionais e não funcionais como:**
+**Importante para efetivação de requisitos funcionais como:**
 \
-RNF-001: Interface deve ser intuitiva e fácil de usar para todas pessoas;
-\
-RNF-005	O sistema deve ser acessível por meio de diferentes dispositivos, como computadores, smartphones e telefones;
-\
-RF-001	Permitir que pacientes agendem consultas com médicos de sua escolha;
-\
-RF-003: Visualização das informações de protocolos;
-\
-RF-008	Gerar uma confirmação de agendamento para o paciente.
-\
+RF-009	Permitir que os usuários insiram mensagens com título, tipo e conteúdo relacionados ao atendimento.
 ![Exemplo de Wireframe](main/AtendimentoPage.png)
