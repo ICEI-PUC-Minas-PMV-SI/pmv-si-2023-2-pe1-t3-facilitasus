@@ -34,24 +34,26 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 | ID       |      Descrição do Requisito                          |  Prioridade  |
 |----------|------------------------------------------------------|--------------|
-|RF-001    | Permitir que pacientes agendem consultas com médicos de sua escolha             |    ALTA      |
-|RF-002    | Visualizar os horários disponíveis para as consultas            |    ALTA      |
-|RF-003    | Visualização das informações de protocolos         |    ALTA      |
-|RF-004    | Acessar informações de agendamento para ajudar os pacientes.| ALTA  |
-|RF-005    | Acessar e gerenciar seus calendários de consultas    |    ALTA      |
-|RF-006    | Agendamento por telefone, com assistente virtual     |    MÉDIA     |
-|RF-007     | Os atendentes devem poder confirmar ou reagendar consultas conforme necessário.| MÉDIA |
-|RF-008    | Gerar uma confirmação de agendamento para o paciente |    BAIXA     |
+|RF-001    | Permitir que os usuários preencham campos obrigatórios, como nome, e-mail e senha, para criar uma conta.             |    ALTA      |
+|RF-002    | Validar os dados inseridos pelos usuários para evitar registros inválidos.            |    ALTA      |
+|RF-003    | Mostrar mensagem de confirmação após um novo usuário ter sido registrado com sucesso.         |    ALTA      |
+|RF-004    |  Permitir que os usuários entrem em suas contas usando seu e-mail e senha.    |    ALTA      |
+|RF-005    | Autenticar as credenciais dos usuários e redirecioná-los para a tela principal após o login bem-sucedido. | ALTA  |
+|RF-006    | Permitir que os usuários interajam com os artigos, protocolos e outros elementos na tela principal.    |    MÉDIA     |
+|RF-007    | Implementar um sistema de notificação que atualiza quando o usuário recebe novas mensagens ou atualizações relevantes.| MÉDIA |
+|RF-008    | Exibir lista de protocolos e permitir que os usuários cliquem em um protocolo para visualizar detalhes. |    ALTA     |
+|RF-009    | Permitir que os usuários insiram mensagens com título, tipo e conteúdo relacionados ao atendimento. |    ALTA     |
+
 
 ### Requisitos não Funcionais
 
 | ID       |              Descrição do Requisito                                 |  Prioridade  |
 |----------|---------------------------------------------------------------------|--------------|
-|RNF-001| Interface deve ser intuitiva e fácil de usar para todas pessoas        |    ALTA      |
-|RNF-002| Responder de forma rápida e eficiente, minimizando o tempo de espera.  |  ALTA        | 
-|RNF-003| Os dados dos pacientes devem ser protegidos e armazenados com privacidade | ALTA |
+|RNF-001| Garantir que todas as telas sejam responsivas, ajustando-se automaticamente para proporcionar uma experiência de usuário otimizada em dispositivos desktop, tablet e mobile.        |    ALTA      |
+|RNF-002| Garantir que todas as operações, como carregamento de páginas, pesquisa de protocolos e envio de mensagens, sejam executadas de forma rápida e eficiente, proporcionando uma experiência do usuário sem atrasos perceptíveis.  |  ALTA        | 
+|RNF-003| Garantir que as senhas dos usuários sejam armazenadas de forma segura, utilizando técnicas para proteger contra ataques de segurança. | ALTA |
 |RNF-004| O sistema deve suportar simultaneamente um grande número de usuários agendando consultas. | MÉDIA |
-|RNF-005| O sistema deve ser acessível por meio de diferentes dispositivos, como computadores, smartphones e telefones. | ALTA |
+|RNF-005| Manter uma interface do usuário intuitiva e fácil de usar, com navegação clara e elementos de design consistentes em todas as telas. | MÈDIA |
 |RNF-006| A plataforma de agendamento deve estar disponível 24/7 para os pacientes agendarem consultas a qualquer momento. | MÉDIA |
 
 ## Restrições
