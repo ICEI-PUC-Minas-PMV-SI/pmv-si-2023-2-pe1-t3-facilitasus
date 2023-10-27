@@ -35,25 +35,17 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 ## Descrição das estruturas:
 
-## Artigos
+## Usuários
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Título        | Texto             | Título do artigo                         | Saude da Criança                                   |
-| Resumo     | Texto             | Um resumo sobre o artigo                       | Orientações sobre a saúde da criança                            |
-| Link  | Link  | Resumo e Titulo são clicaveis e levam para o artigo |[Link do Artigo](https://conectesus-paciente.saude.gov.br/publico/conteudo/artigo/64751836fe0075001eeac796)|
+| Nome        | Texto             | Nome do usuário                      | Davih Duque                                |
+| Email     | Texto             | Email do usuário                       | duque@gmail.com                          |
+| Senha | Senha  | Senha com censura e tratamento e segurança | ********* |
 
-## Protocolos
+## Mensagem
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Imagem         | Imagem             | Imagem para cada protocolo                        | ![Exemplo de UserFlow](main/Documents.svg)                                   |
-| Título         | Texto             | Título do protocolo                         | Documentos necessários para marcação de exames                                  |
-| Conteúdo         | Texto             | Um conteúdo sobre o protocolo                      | Um artigo publicado pelo site Saúde Business...                            |
-| Links relevantes  | Link  | Links para adicionar com o protocolo |[Links](https://conectesus-paciente.saude.gov.br/publico/conteudo/artigo/64751836fe0075001eeac796)|
-
-## Notificações
-|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
-|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Título       | Texto             | Título da Mensagem                         | Mensagem                                   |
-| Tipo        | Texto             | Tipo da Mensagem                       |     Ajuda                     |
-| Conteúdo  | Texto  | Conteúdo da mensagem | Conteúdo da mensagemConteúdo da mensagem | 
+| Título         | Texto             | Título do protocolo                         | Como faço tal coisa?                                  |
+| Tipo | Opções  | Ajuda ou Consulta ou Exame ou Contato| Ajuda (selecionado)
+| Conteúdo         | Texto             | Conteúdo da mensagem                     | Conteúdo da mensagem... Conteúdo da mensagem...                           |
 
