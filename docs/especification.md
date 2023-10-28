@@ -40,6 +40,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-004    | Permitir que os usuários visualizem suas informações e complete os dados  |    MÉDIA     |
 |RF-005    | Exibir lista de protocolos e permitir que os usuários cliquem em um protocolo para visualizar detalhes. |    MÉDIA     |
 |RF-006    | Exibir lista de artigos e permitir que os usuários cliquem em um artigo para ser redirecionado para a notícia. |   MÉDIA     |
+|RF-007    | Permitir que o usuário envie mensagem para o administrador do sistema. |   MÉDIA     |
 
 
 
