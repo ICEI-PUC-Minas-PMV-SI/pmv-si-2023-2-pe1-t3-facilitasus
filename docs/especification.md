@@ -35,14 +35,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | ID       |      Descrição do Requisito                          |  Prioridade  |
 |----------|------------------------------------------------------|--------------|
 |RF-001    | Permitir que os usuários preencham campos obrigatórios, como nome, e-mail e senha, para criar uma conta.             |    ALTA      |
-|RF-002    | Validar os dados inseridos pelos usuários para evitar registros inválidos.            |    ALTA      |
-|RF-003    | Mostrar mensagem de confirmação após um novo usuário ter sido registrado com sucesso.         |    ALTA      |
-|RF-004    |  Permitir que os usuários entrem em suas contas usando seu e-mail e senha.    |    ALTA      |
-|RF-005    | Autenticar as credenciais dos usuários e redirecioná-los para a tela principal após o login bem-sucedido. | ALTA  |
-|RF-006    | Permitir que os usuários interajam com os artigos, protocolos e outros elementos na tela principal.    |    MÉDIA     |
-|RF-007    | Implementar um sistema de notificação que atualiza quando o usuário recebe novas mensagens ou atualizações relevantes.| MÉDIA |
-|RF-008    | Exibir lista de protocolos e permitir que os usuários cliquem em um protocolo para visualizar detalhes. |    ALTA     |
-|RF-009    | Permitir que os usuários insiram mensagens com título, tipo e conteúdo relacionados ao atendimento. |    ALTA     |
+|RF-002    | Permitir que um usuário já registrado, realize o login.           |    ALTA      |
+|RF-003    | Permitir que os usuários interajam com os artigos, protocolos na tela principal.    |    ALTA     |
+|RF-004    | Permitir que os usuários visualizem suas informações e complete os dados  |    MÉDIA     |
+|RF-005    | Exibir lista de protocolos e permitir que os usuários cliquem em um protocolo para visualizar detalhes. |    MÉDIA     |
+|RF-006    | Exibir lista de artigos e permitir que os usuários cliquem em um artigo para ser redirecionado para a notícia. |   MÉDIA     |
+
 
 
 ### Requisitos não Funcionais
