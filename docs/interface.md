@@ -13,7 +13,7 @@ Acima, temos as telas da nossa aplicação, que mapeiam o fluxo do usuário e in
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
 
 ### Todas as Telas
-**Todas as telas têm os seguintes requisitos não funcionais:
+**Todas as telas têm os seguintes requisitos não funcionais:**
 \
 RNF-001	Garantir que todas as telas sejam responsivas, ajustando-se automaticamente para proporcionar uma experiência de usuário otimizada em dispositivos desktop, tablet e mobile.
 \
@@ -29,9 +29,7 @@ A tela de login é a primeira tela, onde os usuários podem inserir seu e-mail e
 \
 **Importante para efetivação de requisitos funcionais como:**
 
-RF-004	Permitir que os usuários entrem em suas contas usando seu e-mail e senha.
-\
-RF-005	Autenticar as credenciais dos usuários e redirecioná-los para a tela principal após o login bem-sucedido.
+RF-002    | Permitir que um usuário já registrado, realize o login
 \
 **Além dos requisitos de outras telas, visto que sem login, sem aplicação.**
 \
@@ -43,10 +41,6 @@ A tela de registro é a tela alternativa da Tela de Login, onde os usuários pod
 Há opções para ir para a HomePage (após a autenticação bem-sucedida) ou voltar para Tela de Login.
 \
 RF-001	Permitir que os usuários preencham campos obrigatórios, como nome, e-mail e senha, para criar uma conta.
-\
-RF-002	Validar os dados inseridos pelos usuários para evitar registros inválidos.
-\
-RF-003 Mostrar mensagem de confirmação após um novo usuário ter sido registrado com sucesso.
 \
 RNF-003	Garantir que as senhas dos usuários sejam armazenadas de forma segura, utilizando técnicas para proteger contra ataques de segurança.
 \
@@ -63,14 +57,11 @@ Com isso no corpo da página, temos: Título e frase sobre ArtigoX (tela exterio
 \
 **Importante para efetivação de requisitos funcionais como:**
 \
-RF-006	Permitir que os usuários interajam com os artigos, protocolos e outros elementos na tela principal.
+RF-003	Permitir que os usuários interajam com os artigos, protocolos na tela principal.
 \
-RF-007	Implementar um sistema de notificação que atualiza quando o usuário recebe novas mensagens ou atualizações relevantes.
+RF-006	Exibir lista de artigos e permitir que os usuários cliquem em um artigo para ser redirecionado para a notícia.
 ![Exemplo de Wireframe](main/HomePage.png)
 \
-Tela inicial com notificação clicado.
-\
-![Exemplo de Wireframe](main/HomePageNotON.png)
 
 ### Tela de Protocolos
 Essa tela repete o cabeçalho da Tela Principal, mas temos uma visão mais ampla de Protocolos.
@@ -89,5 +80,5 @@ No corpo da página: As mensagens já enviadas ou recebidas; Campo para inserir 
 \
 **Importante para efetivação de requisitos funcionais como:**
 \
-RF-009	Permitir que os usuários insiram mensagens com título, tipo e conteúdo relacionados ao atendimento.
+RF-007	Permitir que os usuários insiram mensagens com título, tipo e conteúdo relacionados ao atendimento.
 ![Exemplo de Wireframe](main/AtendimentoPage.png)
