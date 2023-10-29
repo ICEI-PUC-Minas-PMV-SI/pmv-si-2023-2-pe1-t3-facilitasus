@@ -4,11 +4,11 @@
 Layout padrão do site (HTML e CSS) que será utilizado, pode ser visualizado em (src). Abaixo está as fotos pertinentes para visualização mais fácil.
 
 ### Aqui temos a Tela de Login
-![Exemplo de UserFlow](main/LayoutResponsivo.png)
+![Exemplo de UserFlow](main/LoginPageResponsive.png)
 [Clique Aqui para visualizar o código HTML](../src/pages/LoginPage/loginPage.html)
 
 ### Aqui temos a Tela Principal
-![Exemplo de UserFlow](main/LayoutRes.png)
+![Exemplo de UserFlow](main/HomePageResponsive.png)
 [Clique Aqui para visualizar o código HTML](../src/pages/HomePage/home.html)
 
 ## Cores
@@ -37,5 +37,4 @@ Uma fonte moderna de fácil leitura que se mostra muito limpa com o layout onde 
 |Paragráfo do campo   | 16px  | Normal | #4F5154
 ## Iconografia
 ![Exemplo de UserFlow](main/Icones.png)
-Icones do GOV e SUS: São icones fixos atualmente sem funcionalidade.
 Icones  respeitam a seguinte regra: Estático, cor #4F515; Icone da respectiva página: Ativo, cor #2864AE
