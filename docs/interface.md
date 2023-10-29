@@ -4,7 +4,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## User Flow
 
-![Exemplo de UserFlow](main/UserFlow_1920x1080.png)
+![Exemplo de UserFlow](main/Userflow_1920x1080.png)
 
 Acima, temos as telas da nossa aplicação, que mapeiam o fluxo do usuário e incluem um total de 6 páginas alinhadas com os requisitos. Essa técnica permite ao desenvolvedor e aos membros da equipe visualizarem os caminhos e as possíveis ações que o usuário pode realizar.
 
@@ -46,18 +46,20 @@ RNF-003	Garantir que as senhas dos usuários sejam armazenadas de forma segura, 
 \
 **Além dos requisitos de outras telas, visto que sem login, sem aplicação.**
 \
-![Exemplo de Wireframe](main/SignInPage.png)
+![Exemplo de Wireframe](main/SignIn.png)
 
 ### Tela Principal
 Essa é a Tela Principal do app, onde os usuários tem uma liberdade para onde a aplicação vai. 
 \
-No cabeçalho: Há opções de ir para a ProtocolosPage, tela dos protocolos; AtendimentoPage, tela de marcação de consulta e contato; NotificationButton, botão pelo qual abre uma aba de notificação.
+No cabeçalho: Há opções de ir para a ProtocolosPage, tela dos protocolos; AtendimentoPage, tela de contato; Perfil, tela do perfil.
 \
-Com isso no corpo da página, temos: Título e frase sobre ArtigoX (tela exterior da aplicação e leva para o artigo escolhido); Título e resumo de ProtocoloX (tela do protocolo escolhido);  OutroX, tela de outro; 
+Com isso no corpo da página, temos: Título e frase sobre ArtigoX (tela exterior da aplicação e leva para o artigo escolhido); Título e resumo de ProtocoloX (tela do protocolo escolhido);
 \
 **Importante para efetivação de requisitos funcionais como:**
 \
 RF-003	Permitir que os usuários interajam com os artigos, protocolos na tela principal.
+\
+RF-005	Exibir lista de protocolos e permitir que os usuários cliquem em um protocolo para visualizar detalhes.
 \
 RF-006	Exibir lista de artigos e permitir que os usuários cliquem em um artigo para ser redirecionado para a notícia.
 ![Exemplo de Wireframe](main/HomePage.png)
@@ -70,15 +72,26 @@ No corpo da página: Título e frase sobre ArtigoX (tela exterior da aplicação
 \
 **Importante para efetivação de requisitos funcionais como:**
 \
-RF-001: Exibir lista de protocolos e permitir que os usuários cliquem em um protocolo para visualizar detalhes.
+RF-005: Exibir lista de protocolos e permitir que os usuários cliquem em um protocolo para visualizar detalhes.
 ![Exemplo de Wireframe](main/ProtocolosPage.png)
 
 ### Tela de Atendimento
 Essa tela repete o cabeçalho da Tela Principal, mas temos uma visão para preencher uma mensagem.
 \
-No corpo da página: As mensagens já enviadas ou recebidas; Campo para inserir o título da mensagem; Campo de escolha para inserir o tipo de mensagem; Campo para inserir o corpo da mensagem; Botão para efetivar o envio.
+No corpo da página: As mensagens já enviadas; Campo para inserir o título da mensagem; Campo de escolha para inserir o tipo de mensagem; Campo para inserir o corpo da mensagem; Botão para efetivar o envio.
 \
 **Importante para efetivação de requisitos funcionais como:**
 \
 RF-007	Permitir que os usuários insiram mensagens com título, tipo e conteúdo relacionados ao atendimento.
-![Exemplo de Wireframe](main/AtendimentoPage.png)
+![Exemplo de Wireframe](main/MensagensPage.png)
+
+### Tela de Perfil
+Essa tela repete o cabeçalho da Tela Principal, mas temos uma visão para editar e visualizar os dados.
+\
+No corpo da página: Nome, Email, N de telefone, Cidade, inicialmente o Nome e Email ja estão registrados, e há um botão para completar os dados
+\
+**Importante para efetivação de requisitos funcionais como:**
+\
+RF-004	Permitir que os usuários visualizem suas informações e complete os dados
+![Exemplo de Wireframe](main/Perfil.png)
+![Exemplo de Wireframe](main/PerfilChange.png)
