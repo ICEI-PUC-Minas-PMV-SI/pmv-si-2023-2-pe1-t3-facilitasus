@@ -31,7 +31,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-002| Permitir que um usuário já registrado, realize o login. | ALTA | LoginPage.html |
 |RF-003| Permitir que os usuários interajam com os artigos, protocolos na tela principal. | ALTA | Home.html |
 |RF-004| Permitir que os usuários visualizem suas informações e complete os dados | ALTA | Perfil.html |
-|RF-005| Exibir lista de protocolos e permitir que os usuários cliquem em um protocolo para visualizar detalhes. | MÉDIA | ProtocolosPage.html |
+|RF-005| Exibir lista de protocolos e permitir que os usuários cliquem em um protocolo para visualizar detalhes. | MÉDIA | Atendimento.html |
 |RF-007| Permitir que o usuário envie mensagem para o administrador do sistema. | MÉDIA | ProtocolosPage.html |
 | | | | |
 |RNF-001| Garantir que todas as telas sejam responsivas, ajustando-se automaticamente para proporcionar uma experiência de usuário otimizada em dispositivos desktop, tablet e mobile.        |    ALTA      |
