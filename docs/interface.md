@@ -63,7 +63,6 @@ RF-005	Exibir lista de protocolos e permitir que os usuários cliquem em um prot
 \
 RF-006	Exibir lista de artigos e permitir que os usuários cliquem em um artigo para ser redirecionado para a notícia.
 ![Exemplo de Wireframe](main/HomePage.png)
-\
 
 ### Tela de Protocolos
 Essa tela repete o cabeçalho da Tela Principal, mas temos uma visão mais ampla de Protocolos.
