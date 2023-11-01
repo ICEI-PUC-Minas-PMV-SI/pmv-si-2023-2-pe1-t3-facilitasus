@@ -1,4 +1,6 @@
-# FacilitaSUS
+<h1 align="center">
+  <a href="link legal"> FacilitaSUS </a>
+</h1>
 
 `CURSO: Sistemas de Informação`
 
