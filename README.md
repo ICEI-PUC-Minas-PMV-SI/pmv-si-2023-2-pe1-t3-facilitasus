@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="link legal"> FacilitaSUS </a>
+  <a href="https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t3-facilitasus/src/LoginPage.html"> FacilitaSUS </a>
 </h1>
 
 `CURSO: Sistemas de Informação`
