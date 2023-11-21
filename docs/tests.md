@@ -27,18 +27,26 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT01 - Criar conta parte 1**
  :--------------: | ------------
-**Procedimento**  | 1) Usuário informa nome, sobrenome, email, senha, Estado e Cidade e clica no botão "Continuar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.
+**Procedimento**  | 1) Usuário informa nome, email, senha e clica no botão "Cadastrar".<br>2) A aplicação verifica se o email foi cadastrado e informa ao usuário caso não foi.
 **Requisitos associados** | RF-001
-**Resultado esperado** | Prosseguir para a parte 2 do cadastro.
+**Resultado esperado** | Prosseguir para a tela de Login.
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT02 - Criar conta parte 2**
+**Caso de Teste** | **CT02 - Entrar na aplicação**
  :--------------: | ------------
-**Procedimento**  | 1) Usuário informa gênero, seu tipo de usuário (cuidador ou comum), data de nascimento e clica em criar.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 3) A aplicação armazena os dados e direciona o usuário para a tela de login.
-**Requisitos associados** | RF-001
-**Resultado esperado** | Criação de cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
+**Procedimento**  | 1) Usuário informa email, senha e clica no botão "Entrar".<br>2) A aplicação verifica se o email foi cadastrado e informa ao usuário caso não foi.
+**Requisitos associados** | RF-002
+**Resultado esperado** | Prosseguir para a tela principal da aplicação.
+**Dados de entrada** | Inserção de dados válidos no formulário de login.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT03 - Enviar mensagem ao desenvolvedor**
+ :--------------: | ------------
+**Procedimento**  | 1) Confere se o usuário tá logado <br>2) Usuário informa o título, tipo e o contéudo da mensagem.
+**Requisitos associados** | RF-007
+**Resultado esperado** | Prosseguir para a tela principal da aplicação.
+**Dados de entrada** | Inserção de dados válidos no formulário de login.
 **Resultado obtido** | Sucesso.
 
 ## Registro dos Testes de Software
@@ -47,25 +55,27 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 
 |*Caso de Teste*                                 |*TC-01 - Criar uma conta*                                         |
 |---|---|
-|Requisito Associado | RF-004 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
-|Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t| 
+|Requisito Associado | RF-001	Permitir que os usuários preencham campos obrigatórios, como nome, e-mail e senha, para criar uma conta. |
+|Link do vídeo do teste realizado: |[Teste de criação de conta](www.google.com)| 
 
 |*Caso de Teste*                                 |*TC-02 - Efetuar Login (usuário autenticado)*                                         |
 |---|---|
-|Requisito Associado | RF-004 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Requisito Associado | RF-002	Permitir que um usuário já registrado, realize o login.|
+|Link do vídeo do teste realizado: | [Teste de login na aplicação](www.google.com) | 
+
+|*Caso de Teste*                                 |*TC-03 - Enviar mensagem ao desenvolvedor*                                         |
+|---|---|
+|Requisito Associado | RF-007	Permitir que o usuário envie mensagem para o administrador do sistema.|
+|Link do vídeo do teste realizado: | [Teste de envio de mensagem](www.google.com) | 
 
 
 ## Avaliação dos Testes de Software
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
 
-
-
 ## Testes de unidade automatizados (Opcional)
 
 Se o grupo tiver interesse em se aprofundar no desenvolvimento de testes de software, ele podera desenvolver testes automatizados de software que verificam o funcionamento das funções JavaScript desenvolvidas. Para conhecer sobre testes unitários em JavaScript, leia 0 documento  [Ferramentas de Teste para Java Script](https://geekflare.com/javascript-unit-testing/).
-
 
 # Testes de Usabilidade
 
