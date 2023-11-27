@@ -45,7 +45,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
  :--------------: | ------------
 **Procedimento**  | 1) Confere se o usuário tá logado <br>2) Usuário informa o título, tipo e o contéudo da mensagem.
 **Requisitos associados** | RF-007
-**Resultado esperado** | Prosseguir para a tela principal da aplicação.
+**Resultado esperado** | Envio de mensagem ao admin do sistema e adicionando ao usuário sua mensagem
 **Dados de entrada** | Inserção de dados válidos no formulário de login.
 **Resultado obtido** | Sucesso.
 
