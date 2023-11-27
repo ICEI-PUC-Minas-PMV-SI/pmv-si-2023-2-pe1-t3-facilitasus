@@ -16,12 +16,11 @@
     <!-- Estilos -->
     <link rel="stylesheet" href="./styles/login.css" />
 
-
 </head>
 <body>
     <section>
         <div class="imgBg">
-            <img src="./assets/images/medicine.svg" alt="">
+            <img src="./assets/images/Medicine.svg" alt="">
         </div>
 
         <div class="content">
@@ -30,24 +29,24 @@
             </div>
             <div class="form">
                 <h2> Registrar </h2>
-                <form action="./SignInPage.html" id="loginForm"> 
+                <form action="" id="signInForm"> 
                     <div class="input">
                         <span>Nome</span>
-                        <input type="text" placeholder="Insira o seu nome" required />
+                        <input type="text" id="name" placeholder="Insira o seu nome" required />
                     </div>
 
                     <div class="input">
                         <span>Email</span>
-                        <input type="text" placeholder="Insira o seu Email" required />
+                        <input type="text" id="email" placeholder="Insira o seu Email" required />
                     </div>
 
                     <div class="input">
                         <span>Senha</span>
-                        <input type="password" placeholder="Insira a sua senha" required />
+                        <input type="password" id="password" placeholder="Insira a sua senha" required />
                     </div>
 
                     <div class="input">
-                        <input type="submit" value="Entrar" form="loginForm" />
+                        <input type="submit" value="Cadastrar" form="signInForm" />
                     </div>
 
                     <div class="input">
@@ -57,5 +56,11 @@
             </div>
         </div>
     </section>
+
+    <!-- Biblioteca crypto-js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+
+    <!-- Script de Registro -->
+    <script src="./scripts/SignIn.js"></script>
 </body>
 </html>

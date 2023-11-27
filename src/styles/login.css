@@ -44,13 +44,11 @@ section .content {
 
     justify-content: center;
     align-items: center;
-
-
 }
 
 section .content .image img {
     width: 150px;
-    height: auto;
+    height: 150px;
 
     margin: 20px 0;
 }
@@ -89,7 +87,6 @@ section .content .form .input span {
    color: #2864AE;
    letter-spacing: 2px;
    font-weight: 800;
-
 }
 
 section .content .form .input input {
@@ -105,6 +102,10 @@ section .content .form .input input {
     border-radius: 30px;
 
     font-weight: 800;
+}
+
+::placeholder {
+    color: #2864AE;
 }
 
 section .content .form .input input[type = "submit"] {
@@ -127,18 +128,6 @@ section .content .form .input input[type = "submit"]:hover {
     background-color: #387dd1;
     transition-property: background-color;
     transition-duration: 300ms;
-}
-
-section .content .form .remember  {
-    margin-bottom: 15px;
-    color: #2864AE;
-
-}
-
-section .content .form .remember label {
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: 1px;
 }
 
 section .content .form .input p a{
