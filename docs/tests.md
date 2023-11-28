@@ -56,26 +56,22 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*TC-01 - Criar uma conta*                                         |
 |---|---|
 |Requisito Associado | RF-001	Permitir que os usuários preencham campos obrigatórios, como nome, e-mail e senha, para criar uma conta. |
-|Link do vídeo do teste realizado: |[Teste de criação de conta](www.google.com)| 
+|Link do vídeo do teste realizado: |[Teste de criação de conta](./videos/testeCreation.mp4)| 
 
 |*Caso de Teste*                                 |*TC-02 - Efetuar Login (usuário autenticado)*                                         |
 |---|---|
 |Requisito Associado | RF-002	Permitir que um usuário já registrado, realize o login.|
-|Link do vídeo do teste realizado: | [Teste de login na aplicação](www.google.com) | 
+|Link do vídeo do teste realizado: | [Teste de login na aplicação](./videos/testeLogin.mp4) | 
 
 |*Caso de Teste*                                 |*TC-03 - Enviar mensagem ao desenvolvedor*                                         |
 |---|---|
 |Requisito Associado | RF-007	Permitir que o usuário envie mensagem para o administrador do sistema.|
-|Link do vídeo do teste realizado: | [Teste de envio de mensagem](www.google.com) | 
+|Link do vídeo do teste realizado: | [Teste de envio de mensagem](./videos/testeMessage.mp4) | 
 
 
 ## Avaliação dos Testes de Software
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
-
-## Testes de unidade automatizados (Opcional)
-
-Se o grupo tiver interesse em se aprofundar no desenvolvimento de testes de software, ele podera desenvolver testes automatizados de software que verificam o funcionamento das funções JavaScript desenvolvidas. Para conhecer sobre testes unitários em JavaScript, leia 0 documento  [Ferramentas de Teste para Java Script](https://geekflare.com/javascript-unit-testing/).
 
 # Testes de Usabilidade
 
