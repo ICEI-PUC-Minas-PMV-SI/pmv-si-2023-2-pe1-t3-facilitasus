@@ -51,22 +51,22 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 ## Registro dos Testes de Software
 
-Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
+Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Lembre-se de colocar na melhor resolução possível (1080p).
 
 |*Caso de Teste*                                 |*TC-01 - Criar uma conta*                                         |
 |---|---|
 |Requisito Associado | RF-001	Permitir que os usuários preencham campos obrigatórios, como nome, e-mail e senha, para criar uma conta. |
-|Link do vídeo do teste realizado: |[Teste de criação de conta](./videos/testeCreation.mp4)| 
+|Link do vídeo do teste realizado: |[Teste de criação de conta](https://drive.google.com/file/d/11-lfCYqEZVkM0RBDKbUH9AHzo8DWi_-g/view?usp=sharing)| 
 
 |*Caso de Teste*                                 |*TC-02 - Efetuar Login (usuário autenticado)*                                         |
 |---|---|
 |Requisito Associado | RF-002	Permitir que um usuário já registrado, realize o login.|
-|Link do vídeo do teste realizado: | [Teste de login na aplicação](./videos/testeLogin.mp4) | 
+|Link do vídeo do teste realizado: | [Teste de login na aplicação](https://drive.google.com/file/d/1OmrTIYhvS5zXxJ_cTBEaLuTvBln_jbbV/view?usp=sharing) | 
 
 |*Caso de Teste*                                 |*TC-03 - Enviar mensagem ao desenvolvedor*                                         |
 |---|---|
 |Requisito Associado | RF-007	Permitir que o usuário envie mensagem para o administrador do sistema.|
-|Link do vídeo do teste realizado: | [Teste de envio de mensagem](./videos/testeMessage.mp4) | 
+|Link do vídeo do teste realizado: | [Teste de envio de mensagem](https://drive.google.com/file/d/1sPp8QzE_KQQw4hdo69t0rZ1ZyGgDaJpp/view?usp=sharing) | 
 
 
 ## Avaliação dos Testes de Software
