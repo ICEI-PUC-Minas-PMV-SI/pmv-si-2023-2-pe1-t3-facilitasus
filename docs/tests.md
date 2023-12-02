@@ -87,17 +87,37 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*TC-01 - Criar uma conta*                                         |
 |---|---|
 |Requisito Associado | RF-001	Permitir que os usuários preencham campos obrigatórios, como nome, e-mail e senha, para criar uma conta. |
-|Link do vídeo do teste realizado: |[Teste de criação de conta](https://drive.google.com/file/d/11-lfCYqEZVkM0RBDKbUH9AHzo8DWi_-g/view?usp=sharing)| 
+|Link do vídeo do teste realizado: |[Teste de criação de conta](https://drive.google.com/file/d/1goAiS7gt9uGn2h0yGS8bxzLpInS6iYg1/view?usp=sharing)| 
 
 |*Caso de Teste*                                 |*TC-02 - Efetuar Login (usuário autenticado)*                                         |
 |---|---|
 |Requisito Associado | RF-002	Permitir que um usuário já registrado, realize o login.|
-|Link do vídeo do teste realizado: | [Teste de login na aplicação](https://drive.google.com/file/d/1OmrTIYhvS5zXxJ_cTBEaLuTvBln_jbbV/view?usp=sharing) | 
+|Link do vídeo do teste realizado: | [Teste de login na aplicação](https://drive.google.com/file/d/1mxWUKxoHVg5sB_dIyEIhEy0X1H1mcXTc/view?usp=sharing) | 
 
-|*Caso de Teste*                                 |*TC-03 - Enviar mensagem ao desenvolvedor*                                         |
+|*Caso de Teste*                                 |*TC-03 - Interagir com artigos e protocolos*                                         |
 |---|---|
-|Requisito Associado | RF-007	Permitir que o usuário envie mensagem para o administrador do sistema.|
-|Link do vídeo do teste realizado: | [Teste de envio de mensagem](https://drive.google.com/file/d/1sPp8QzE_KQQw4hdo69t0rZ1ZyGgDaJpp/view?usp=sharing) | 
+|Requisito Associado | RF-003	Permitir que os usuários interajam com os artigos, protocolos na tela principal.|
+|Link do vídeo do teste realizado: | [Teste de interação](https://drive.google.com/file/d/10KvGJt3o9iK6foH4w8Ho-DAvFZP75e7-/view?usp=sharing) | 
+
+|*Caso de Teste*                                 |*TC-04 - Visualizar e completar informações*                                         |
+|---|---|
+|Requisito Associado | RF-004	Permitir que os usuários visualizem suas informações e complete os dados.|
+|Link do vídeo do teste realizado: | [Teste de edição de dados](https://drive.google.com/file/d/1w7o7l06Ulp1IGLw_Jj-gwp2O75poglds/view?usp=sharing) | 
+
+|*Caso de Teste*                                 |*TC-05 - Enviar mensagem ao desenvolvedor*                                         |
+|---|---|
+|Requisito Associado | RF-006	Permitir que o usuário envie mensagem para o administrador do sistema.|
+|Link do vídeo do teste realizado: | [Teste de envio de mensagem](https://drive.google.com/file/d/1PtgUwA52v1pW4KjIGOsKuM_QuywH9nzG/view?usp=sharing) | 
+
+|*Caso de Teste*                                 |*TC-06 - Garantir responsividade de todas as páginas*                                         |
+|---|---|
+|Requisito Associado | RNF-001	Garantir que todas as telas sejam responsivas, ajustando-se automaticamente para proporcionar uma experiência de usuário otimizada em dispositivos desktop, tablet e mobile.|
+|Link do vídeo do teste realizado: | [Teste de responsividade](https://drive.google.com/file/d/1naRB42cs7XOwDb1N_-Ans-0AJIlW8fcu/view?usp=sharing) | 
+
+|*Caso de Teste*                                 |*TC-07 - Garantir segurança de senhas do usuários*                                         |
+|---|---|
+|Requisito Associado | RNF-003	Garantir que as senhas dos usuários sejam armazenadas de forma segura, utilizando técnicas para proteger contra ataques de segurança.|
+|Link do vídeo do teste realizado: | [Teste de segurança](https://drive.google.com/file/d/1naRB42cs7XOwDb1N_-Ans-0AJIlW8fcu/view?usp=sharing) | 
 
 
 ## Avaliação dos Testes de Software
