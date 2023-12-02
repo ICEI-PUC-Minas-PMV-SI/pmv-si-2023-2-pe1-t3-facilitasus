@@ -117,7 +117,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*TC-07 - Garantir segurança de senhas do usuários*                                         |
 |---|---|
 |Requisito Associado | RNF-003	Garantir que as senhas dos usuários sejam armazenadas de forma segura, utilizando técnicas para proteger contra ataques de segurança.|
-|Link do vídeo do teste realizado: | [Teste de segurança](https://drive.google.com/file/d/1naRB42cs7XOwDb1N_-Ans-0AJIlW8fcu/view?usp=sharing) | 
+|Link do vídeo do teste realizado: | [Teste de segurança](https://drive.google.com/file/d/16bAHv69r_TggxL98wI0zYE5fXTmYoFVc/view?usp=sharing) | 
 
 
 ## Avaliação dos Testes de Software
