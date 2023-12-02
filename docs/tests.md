@@ -35,7 +35,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT02 - Entrar na aplicação**
  :--------------: | ------------
-**Procedimento**  | 1) Usuário informa email, senha e clica no botão "Entrar".<br>2) A aplicação verifica se o email foi cadastrado e informa ao usuário caso não foi.
+**Procedimento**  | 1) Usuário informa email, senha e clica no botão "Entrar".<br>2) A aplicação verifica se o usuário foi cadastrado e informa ao usuário caso não foi.
 **Requisitos associados** | RF-002
 **Resultado esperado** | Prosseguir para a tela principal da aplicação.
 **Dados de entrada** | Inserção de dados válidos no formulário de login.
