@@ -41,12 +41,43 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção de dados válidos no formulário de login.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT03 - Enviar mensagem ao desenvolvedor**
+**Caso de Teste** | **CT03 - Interagir com artigos e protocolos**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário clica no respectivo artigo ou protocolo <br>2) A aplicação redireciona para o respectivo clicado.
+**Requisitos associados** | RF-003
+**Resultado esperado** | Prosseguir para a tela de respectivo clicado.
+**Dados de entrada** | Clique.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT04 - Visualizar e completar informações**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário clica no botão do perfil <br>2) A aplicação redireciona para a tela de perfil. <br>3) O usuário clica e preenche as informações
+**Requisitos associados** | RF-004
+**Resultado esperado** | Inserção de dados e salvamento de dados.
+**Dados de entrada** | Dados a serem atualizados e salvos.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT05 - Enviar mensagem ao desenvolvedor**
  :--------------: | ------------
 **Procedimento**  | 1) Confere se o usuário tá logado <br>2) Usuário informa o título, tipo e o contéudo da mensagem.
-**Requisitos associados** | RF-007
+**Requisitos associados** | RF-006
 **Resultado esperado** | Envio de mensagem ao admin do sistema e adicionando ao usuário sua mensagem
 **Dados de entrada** | Inserção de dados válidos no formulário de login.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT06 - Garantir responsividade de todas as páginas**
+ :--------------: | ------------
+**Procedimento**  | 1) Confere a resolução da tela e adapta os elementos.
+**Requisitos associados** | RNF-001
+**Resultado esperado** | Adaptação dos elementos das páginas.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT07 - Garantir segurança de senhas do usuário**
+ :--------------: | ------------
+**Procedimento**  | 1) Pega a senha e usa um algoritmo para salvar de forma segura.
+**Requisitos associados** | RNF-003
+**Resultado esperado** | Salvamento de senhas com segurança
+**Dados de entrada** | Inserção de senha.
 **Resultado obtido** | Sucesso.
 
 ## Registro dos Testes de Software
