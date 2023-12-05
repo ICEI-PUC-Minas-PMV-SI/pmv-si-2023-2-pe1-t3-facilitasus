@@ -100,7 +100,10 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 
 ## Avaliação dos Testes de Software
 
-A aplicação apresentou algumas limitações devido à falta de consistência da equipe, resultando em impactos nas implementações. A funcionalidade de envio de mensagem ao desenvolvedor poderia ser aprimorada para abranger mais edições e melhorias para o usuário.
+A aplicação apresentou algumas limitações devido à falta de consistência da equipe, impactando as implementações.
+Sugestão de aprimoramento na funcionalidade de envio de mensagem ao desenvolvedor para incluir mais edições e melhorias para o usuário.
+A edição de dados do usuário está sendo feita como um bloco, sugerindo uma possível melhoria para permitir edições mais granulares.
+A interação com artigos e protocolos é limitada devido à falta de cooperação para pesquisa, sugerindo a necessidade de aumentar a quantidade para uma experiência mais rica.
 
 # Testes de Usabilidade
 
@@ -114,14 +117,17 @@ A aplicação apresentou algumas limitações devido à falta de consistência d
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
-| 1             | Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando. |
-| 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço. |
+| 1             | Você é uma pessoa que deseja encontrar um protocolo referente a marcação de consulta |
+| 2             | Você é uma pessoa que deseja enviar mensagem para o desenvolvedor da aplicação. |
+| 3             | Você é uma pessoa que deseja ler um artigo referente a saúde. |
+| 4             | Você é uma pessoa que deseja completar/ visualizar os dados inseridos na hora da criação de conta. |
+
 
 
 
 ## Registro de Testes de Usabilidade
 
-Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando.
+Cenário 1: Você é uma pessoa que deseja encontrar um protocolo referente a marcação de consulta.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
@@ -139,7 +145,37 @@ Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site u
 
 
 
-Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço.
+Cenário 2: Você é uma pessoa que deseja enviar mensagem para o desenvolvedor da aplicação.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 22.54 segundos                          |
+| 2       | SIM             | 5                    | 31.42 segundos                          |
+| 3       | SIM             | 5                    | 36.21 segundos                          |
+|  |  |  |  |
+| **Média**     | 0%           | 0                | 0 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+
+    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
+    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
+    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+
+Cenário 3: Você é uma pessoa que deseja ler um artigo referente a saúde.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 22.54 segundos                          |
+| 2       | SIM             | 5                    | 31.42 segundos                          |
+| 3       | SIM             | 5                    | 36.21 segundos                          |
+|  |  |  |  |
+| **Média**     | 0%           | 0                | 0 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+
+    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
+    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
+    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+
+Cenário 4: Você é uma pessoa que deseja completar/ visualizar os dados inseridos na hora da criação de conta.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
