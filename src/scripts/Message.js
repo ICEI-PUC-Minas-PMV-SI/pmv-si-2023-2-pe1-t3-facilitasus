@@ -31,10 +31,32 @@ messageForm.addEventListener('submit', function(event) {
 });
 
 function salvarMensagemNoLocalStorage(usuarioLogado, mensagem) {
-    const mensagensSalvas = JSON.parse(localStorage.getItem(`mensagens_${usuarioLogado}`)) || [];
-    mensagem.usuario = usuarioLogado;
+    // Verifique se usuarioLogado é definido
+    if (!usuarioLogado) {
+        console.error('Erro: usuarioLogado é undefined.');
+        return;
+    }
+
+    const usuarioInfo = JSON.parse(localStorage.getItem('usuarioLogado'));
+
+    // Certifique-se de que usuarioInfo e usuarioInfo.id são definidos
+    if (!usuarioInfo || !usuarioInfo.id) {
+        console.error('Erro: usuário ou ID do usuário é undefined.');
+        return;
+    }
+
+    const usuarioId = usuarioInfo.id;
+
+    // Obter mensagens salvas ou criar um novo array vazio
+    const mensagensSalvas = JSON.parse(localStorage.getItem(`mensagens_${usuarioId}`)) || [];
+    console.log('Mensagens salvas:', mensagensSalvas);
+
+    // Adicionar a mensagem ao array de mensagens
+    mensagem.usuario = { id: usuarioId };
     mensagensSalvas.push(mensagem);
-    localStorage.setItem(`mensagens_${usuarioLogado}`, JSON.stringify(mensagensSalvas));
+
+    // Salvar apenas as mensagens no localStorage, sem informações completas do usuário
+    localStorage.setItem(`mensagens_${usuarioId}`, JSON.stringify(mensagensSalvas.map(m => ({ ...m, usuario: { id: m.usuario.id } }))));
 
     // Envie os dados para o Formsprее
     enviarFormularioParaFormspree(mensagem);
@@ -65,33 +87,51 @@ function enviarFormularioParaFormspree(mensagem) {
 }
 
 function carregarMensagens(usuarioLogado) {
-    const mensagensSalvas = JSON.parse(localStorage.getItem(`mensagens_${usuarioLogado}`)) || [];
+    // Parse do JSON para obter as informações do usuário
+    const usuarioInfo = JSON.parse(localStorage.getItem('usuarioLogado'));
+
+    if (!usuarioInfo || !usuarioInfo.id) {
+        console.error('Erro: usuário ou ID do usuário é undefined.');
+        return;
+    }
+
+    const usuarioId = usuarioInfo.id;
+
+    // Obter mensagens salvas ou criar um novo array vazio
+    const mensagensSalvas = JSON.parse(localStorage.getItem(`mensagens_${usuarioId}`)) || [];
     const sidebarDiv = document.querySelector('.sidebar');
     sidebarDiv.innerHTML = '';
 
-    mensagensSalvas.forEach(mensagem => {
-        const newMessageDiv = document.createElement('div');
-        newMessageDiv.classList.add('message');
+    // Adiciona o título na sidebar
+    const h1Element = document.createElement('h1');
+    h1Element.textContent = 'Mensagens Enviadas';
+    sidebarDiv.appendChild(h1Element);
 
-        const subContentDiv = document.createElement('div');
-        subContentDiv.classList.add('sub-content');
+    // Adiciona as mensagens na sidebar
+    mensagensSalvas
+        .forEach(mensagem => {
+            const newMessageDiv = document.createElement('div');
+            newMessageDiv.classList.add('message');
 
-        const tituloElement = document.createElement('h2');
-        tituloElement.textContent = formatarTitulo(mensagem.titulo);
-        subContentDiv.appendChild(tituloElement);
+            const subContentDiv = document.createElement('div');
+            subContentDiv.classList.add('sub-content');
 
-        const tipoElement = document.createElement('h2');
-        tipoElement.textContent = mensagem.tipo;
-        subContentDiv.appendChild(tipoElement);
+            const tituloElement = document.createElement('h2');
+            tituloElement.textContent = formatarTitulo(mensagem.titulo);
+            subContentDiv.appendChild(tituloElement);
 
-        const conteudoElement = document.createElement('p');
-        conteudoElement.textContent = mensagem.conteudo;
+            const tipoElement = document.createElement('h2');
+            tipoElement.textContent = mensagem.tipo;
+            subContentDiv.appendChild(tipoElement);
 
-        newMessageDiv.appendChild(subContentDiv);
-        newMessageDiv.appendChild(conteudoElement);
+            const conteudoElement = document.createElement('p');
+            conteudoElement.textContent = mensagem.conteudo;
 
-        sidebarDiv.appendChild(newMessageDiv);
-    });
+            newMessageDiv.appendChild(subContentDiv);
+            newMessageDiv.appendChild(conteudoElement);
+
+            sidebarDiv.appendChild(newMessageDiv);
+        });
 }
 
 document.addEventListener('DOMContentLoaded', function() {
