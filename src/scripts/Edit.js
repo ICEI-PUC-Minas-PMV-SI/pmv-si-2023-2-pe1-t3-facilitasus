@@ -131,6 +131,11 @@ window.onload = function() {
     
         // Fechando a overlay
         fecharEdicao();
+
+        // Limpando o formulario
+        editForm.reset();
+
+        
     });
     
     atualizarDadosUsuario();
