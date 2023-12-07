@@ -102,7 +102,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 
 A aplicação apresentou algumas limitações devido à falta de consistência da equipe, impactando as implementações.
 Sugestão de aprimoramento na funcionalidade de envio de mensagem ao desenvolvedor para incluir mais edições e melhorias para o usuário.
-A edição de dados do usuário está sendo feita como um bloco, sugerindo uma possível melhoria para permitir edições mais granulares.
+A edição de dados do usuário está sendo feita como um bloco, sugerindo uma possível melhoria para permitir edições mais singulares.
 A interação com artigos e protocolos é limitada devido à falta de cooperação para pesquisa, sugerindo a necessidade de aumentar a quantidade para uma experiência mais rica.
 
 # Testes de Usabilidade
@@ -133,72 +133,63 @@ Cenário 1: Você é uma pessoa que deseja encontrar um protocolo referente a ma
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 3                    | 31.32 segundos                  |
 | 2       | SIM             | 3                    | 20.17 segundos                  |
-| 3       | SIM             | 5                    | 25.23 segundos                  |
+| 3       | SIM             | 4                    | 25.23 segundos                  |
 |  |  |  |  |
-| **Média**     | 100%           | 3.66                | 25.57 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
-
+| **Média**     | 100%           | 3.33                | 25.57 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 15.91 segundos |
 
     Comentários dos usuários: Achei que o site poderia ter mais detalhes visuais, trazendo uma identidade mais forte e viva para aplicação.
     Acredito a aplicação ficou intuitiva mas vazia, poderia ser algo mais detalhado.
-
-
-
 
 Cenário 2: Você é uma pessoa que deseja enviar mensagem para o desenvolvedor da aplicação.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 5                    | 36.21 segundos                          |
+| 1       | SIM             | 2                    | 39.87 segundos                          |
+| 2       | SIM             | 3                   | 30.42 segundos                          |
+| 3       | SIM             | 4                    | 35.51 segundos                          |
 |  |  |  |  |
-| **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Média**     | 100%           | 3               | 35.26 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 26.58 segundos |
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
-
+    Comentários dos usuários: Ao interagir com o sistema, enfrentei um problema, o campo de tipo não foi exibido. Isso me deixou confuso(a) sobre se deveria digitar as informações     ou selecionar uma opção a partir das disponíveis.
+    Ao enviar a mensagem, senti a necessidade de visualizar ela por completo e ver se tudo que eu tinha a dizer ficou claro, mas só tem uma previsualização muito pequena
+    
 Cenário 3: Você é uma pessoa que deseja ler um artigo referente a saúde.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 5                    | 36.21 segundos                          |
+| 1       | SIM             | 4                    | 20.54 segundos                          |
+| 2       | SIM             | 5                    | 15.22 segundos                          |
+| 3       | SIM             | 5                    | 25.21 segundos                          |
 |  |  |  |  |
-| **Média**     | 0%           | 0                | 0 segundos                           |
+| **Média**     | 100%           | 5                | 18.62 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+    Comentários dos usuários: Ao abrir o artigo, uma nova aba foi gerada, e o carregamento da tela demorou para ser concluído. Esse atraso pode ser considerado um obstáculo no caminho, prejudicando a fluidez.
+    
 
 Cenário 4: Você é uma pessoa que deseja completar/ visualizar os dados inseridos na hora da criação de conta.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 5                    | 36.21 segundos                          |
+| 1       | SIM             | 3                   | 35.20 segundos                          |
+| 2       | SIM             | 4                    | 26.42 segundos                          |
+| 3       | SIM             | 4                    | 28.21 segundos                          |
 |  |  |  |  |
-| **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Média**     | 100%           | 3.66                | 0 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 22.15 segundos |
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
-
+    Comentários dos usuários: O site é fácil de completar o cadastro, entretanto, observei que a escolha da engrenagem como ícone para determinada funcionalidade não foi            apropriada, o que gerou confusão.
+    Durante a interação, senti que a edição estava restrita, uma vez que todos os dados foram apresentados como um bloco, impedindo minha liberdade para ajustes individuais.
+    
 ## Avaliação dos Testes de Usabilidade
 
-Tomando como base os resultados obtidos, foi possível verificar que a aplicação web apresenta bons resultados quanto à taxa de sucesso na interação dos usuários, tendo em vista que os cenários propostos foram concluídos com sucesso.
+A avaliação dos testes de usabilidade revela alguns pontos positivos, como a alta taxa de sucesso na conclusão dos cenários propostos pelos usuários. A aplicação web demonstra eficácia em permitir que os usuários atinjam seus objetivos. No entanto, a satisfação média de 3,74 indica que há espaço para melhorias na experiência do usuário.
 
-Além disso, a aplicação obteve também uma elevada satisfação subjetiva dos usuários no momento que realizavam os cenários propostos. Prova são as médias das avaliações em cada um dos cenários, que variou entre 4 (bom) e 5 (ótimo).
+Os comentários dos usuários destacam preocupações válidas, como a falta de detalhes visuais para tornar a aplicação mais atraente e envolvente. A sugestão de trazer uma identidade mais forte e viva para a aplicação pode ser considerada para melhorar a satisfação dos usuários.
 
-Com relação ao tempo para conclusão de cada tarefa/cenário, notamos discrepância entre a média de tempo dos usuários e o tempo do especialista/desenvolvedor em todos os cenários. Tal discrepância, em certa medida, é esperada, tendo em vista que o desenvolvedor já tem prévio conhecimento de toda a interface da aplicação, do posicionamento dos elementos, lógica de organização das páginas, etc.
+Além disso, foram observadas questões específicas em alguns cenários, como a confusão gerada pela escolha de ícones inadequados e a limitação na edição dos dados. Esses pontos indicam a necessidade de ajustes na usabilidade e na apresentação de elementos na interface.
 
-Contudo, tendo em vista que a diferença foi relevante (por exemplo, 113 segundos — média usuários — contra 25 segundos — especialista — no cenário três), e ainda os comentários feitos por alguns usuários, entendemos haver oportunidades de melhoria na usabilidade da aplicação.
-
-
+A discrepância significativa entre o tempo médio dos usuários e o tempo do especialista sugere que a aplicação pode se beneficiar de otimizações para tornar o uso mais eficiente e intuitivo para usuários sem conhecimento prévio da interface.
 
