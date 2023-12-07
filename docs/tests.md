@@ -117,7 +117,7 @@ A interação com artigos e protocolos é limitada devido à falta de cooperaç�
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
-| 1             | Você é uma pessoa que deseja encontrar um protocolo referente a marcação de consulta |
+| 1             | Você é uma pessoa que deseja encontrar um protocolo referente a marcação de consulta. |
 | 2             | Você é uma pessoa que deseja enviar mensagem para o desenvolvedor da aplicação. |
 | 3             | Você é uma pessoa que deseja ler um artigo referente a saúde. |
 | 4             | Você é uma pessoa que deseja completar/ visualizar os dados inseridos na hora da criação de conta. |
@@ -131,16 +131,16 @@ Cenário 1: Você é uma pessoa que deseja encontrar um protocolo referente a ma
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 27.87 segundos                  |
-| 2       | SIM             | 5                    | 17.11 segundos                  |
-| 3       | SIM             | 5                    | 39.09 segundos                  |
+| 1       | SIM             | 3                    | 31.32 segundos                  |
+| 2       | SIM             | 3                    | 20.17 segundos                  |
+| 3       | SIM             | 5                    | 25.23 segundos                  |
 |  |  |  |  |
-| **Média**     | 0%           | 0                | 0 segundos                           |
+| **Média**     | 100%           | 3.66                | 25.57 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
 
 
-    Comentários dos usuários: Achei o site muito bom e intuitivo. 
-    Não tive dificuldades e acho que ficou bem intuitivo.
+    Comentários dos usuários: Achei que o site poderia ter mais detalhes visuais, trazendo uma identidade mais forte e viva para aplicação.
+    Acredito a aplicação ficou intuitiva mas vazia, poderia ser algo mais detalhado.
 
 
 
