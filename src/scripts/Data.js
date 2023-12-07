@@ -15,5 +15,9 @@ headerRightElement.innerHTML = `
 // Para pegar o botao de fechar e função para fechar
 const closeApp = document.getElementById("closeApp");
 closeApp.addEventListener("click", function() {
-    fecharEdicao();
+    // Definir usuarioLogado como null
+    localStorage.setItem('usuarioLogado', JSON.stringify(null));
+
+    // Redirecionar para a página LoginPage.html
+    window.location.href = 'LoginPage.html';
 });
