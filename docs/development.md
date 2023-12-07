@@ -32,6 +32,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 ## Mensagem
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| ID do usuário         | Texto             | ID criado para o usuário                         | UUID (862b6406-36ab-4b53-8d19-a6ec2abd190b)                                |
 | Título         | Texto             | Título do protocolo                         | Como faço tal coisa?                                  |
 | Tipo | Opções  | Ajuda ou Consulta ou Exame ou Contato| Ajuda (selecionado)
 | Conteúdo         | Texto             | Conteúdo da mensagem                     | Conteúdo da mensagem... Conteúdo da mensagem...                           |
