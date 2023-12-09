@@ -12,12 +12,8 @@ O projeto "FacilitaSUS" foi desenvolvido com o objetivo principal de eliminar bu
 
 O projeto pode ser acessado aqui: [FacilitaSUS](https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t3-facilitasus/src/LoginPage.html)
 
-## Integrantes
+## Integrante
 
-* Gabriel Ferreira dos Santos
-* Jordan Ítalo Amaral Faria Correia Vicente
-* Karoline Celeste Muruci
-* Lucas Moreira de Abreu
 * Davih Gonçalves Duque
 
 ## Orientador
