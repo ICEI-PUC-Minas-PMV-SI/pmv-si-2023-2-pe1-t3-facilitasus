@@ -7,7 +7,22 @@ function getUsuarioLogado() {
     };
 }
 
+// Para pegar o botao de fechar e função para fechar
+const closeApp = document.getElementById("closeApp");
+closeApp.addEventListener("click", function () {
+    if(usuarioLogado != null) {
+        
+        // Definir usuarioLogado como null
+        localStorage.setItem('usuarioLogado', JSON.stringify(null));
 
+        // Redirecionar para a página LoginPage.html
+        window.location.href = 'LoginPage.html';
+
+    } else {
+        // Redirecionar para a página LoginPage.html
+        window.location.href = 'LoginPage.html';     
+    }
+});
 
 const usuarioLogado = getUsuarioLogado();
 
@@ -150,13 +165,3 @@ window.onload = function() {
     
     atualizarDadosUsuario();
 };
-
-// Para pegar o botao de fechar e função para fechar
-const closeApp = document.getElementById("closeApp");
-closeApp.addEventListener("click", function () {
-    // Definir usuarioLogado como null
-    localStorage.setItem('usuarioLogado', JSON.stringify(null));
-
-    // Redirecionar para a página LoginPage.html
-    window.location.href = 'LoginPage.html';
-        });
