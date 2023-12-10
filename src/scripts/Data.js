@@ -7,10 +7,16 @@ const usuarioLogado = getUsuarioLogado();
 
 // Atualizando o header_right com os dados do usuário
 const headerRightElement = document.querySelector('.header_right');
-headerRightElement.innerHTML = `
-    <h2> Olá, <b style="color: #2864AE;">${usuarioLogado.nome}</b> </h2>
-    <h2> Seja bem-vindo(a)</h2>
-`;
+if (usuarioLogado && usuarioLogado.nome) {
+    headerRightElement.innerHTML = `
+        <h2> Olá, <b style="color: #2864AE;">${usuarioLogado.nome}</b> </h2>
+        <h2> Seja bem-vindo(a)</h2>
+    `;
+} else {
+    headerRightElement.innerHTML = `
+        <h2> Faça o Login clicando no X para voltar para tela</h2>
+    `;
+}
 
 // Para pegar o botao de fechar e função para fechar
 const closeApp = document.getElementById("closeApp");
