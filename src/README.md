@@ -1,7 +1,7 @@
 <h1 align="center">
   <a href="https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t3-facilitasus/src/LoginPage.html" target="_blank"> FacilitaSUS </a>
 </h1>
-<p align="center"> Clique no link acima para a aplicação
+<p align="center"> Para experimentar o FacilitaSUS, visite nossa aplicação no link acima.
   
 <p align="center">
   <img src="../docs/main/HomePageResponsive.png" alt="Form page image" />
