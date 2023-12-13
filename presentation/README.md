@@ -1,7 +1,7 @@
 # Apresentação
 Liste os arquivos produzidos e postados nesta pasta, com suas localizaçãoes e descrição do conteúdo neste arquivo Readme.md.
 
-* [Apresentação Inicial](./SlidesIniciais.pdf) -- arquivo com os slides da apresentação inicial
+* [Apresentação Inicial](./Slides.pdf) -- arquivo com os slides da apresentação inicial
 * [Apresentação Final](./SlidesFinais.pdf) -- arquivo com os slides da apresentação final
 * [Vídeo de Demonstração](./sample-video.mp4) -- arquivo com a demonstração do funcionamento do sistema
 
