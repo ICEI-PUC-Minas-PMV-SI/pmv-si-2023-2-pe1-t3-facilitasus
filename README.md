@@ -8,7 +8,7 @@
 
 `SEMESTRE: 1º`
 
-O projeto "FacilitaSUS" foi desenvolvido com o objetivo principal de eliminar burocracias e atrasos, proporcionando aos pacientes uma maneira mais rápida e eficiente de marcar exames e consultas médicas. A iniciativa concentra-se em fornecer um serviço de saúde mais acessível e conveniente, reduzindo a papelada e trazendo informações pertinentes.
+O projeto "FacilitaSUS" foi concebido com o propósito fundamental de proporcionar informações relevantes aos usuários do Sistema Único de Saúde (SUS) por meio de artigos e protocolos. O intuito é facilitar o acesso a conteúdos informativos, promovendo a conscientização e a compreensão dos procedimentos e diretrizes no âmbito da saúde pública.
 
 O projeto pode ser acessado aqui: [FacilitaSUS](https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t3-facilitasus/src/LoginPage.html)
 

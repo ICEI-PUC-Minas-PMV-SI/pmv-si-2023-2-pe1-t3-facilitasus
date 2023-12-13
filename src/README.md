@@ -31,7 +31,7 @@ Esse projeto foi feito com as seguintes tecnologias:
 - SVG Icons
 
 ## 💻 Projeto
-O projeto "FacilitaSUS" foi desenvolvido com o objetivo principal de eliminar burocracias e atrasos, proporcionando aos pacientes uma maneira mais rápida e eficiente de marcar exames e consultas médicas. A iniciativa concentra-se em fornecer um serviço de saúde mais acessível e conveniente, reduzindo a papelada e os processos morosos que muitas vezes impedem os pacientes de obterem os cuidados de que precisam.
+O projeto "FacilitaSUS" foi concebido com o propósito fundamental de proporcionar informações relevantes aos usuários do Sistema Único de Saúde (SUS) por meio de artigos e protocolos. O intuito é facilitar o acesso a conteúdos informativos, promovendo a conscientização e a compreensão dos procedimentos e diretrizes no âmbito da saúde pública.
 
 ## 🎓 PUC
 Este projeto foi desenvolvido como parte da graduação em Sistemas da Informação na Pontifícia Universidade Católica (PUC). A PUC é uma instituição renomada que proporciona uma formação acadêmica sólida e abrangente. A ênfase no curso de Sistemas da Informação na PUC inclui a aplicação prática de conhecimentos teóricos para abordar desafios do mundo real.
