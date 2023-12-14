@@ -3,7 +3,7 @@ Aqui estão os arquivos da apresentação!
 
 * [Apresentação Inicial](./SlidesIniciais.pdf) -- arquivo com os slides da apresentação inicial
 * [Apresentação Final](./Slides.pdf) -- arquivo com os slides da apresentação final
-* [Vídeo de Demonstração](./sample-video.mp4) -- arquivo com a demonstração do funcionamento do sistema
+* [Vídeo de Demonstração](https://drive.google.com/file/d/1qPteT_g18Pw_TSnVVNYMUP9H87eNexGf/view?usp=sharing) -- arquivo com a demonstração do funcionamento do sistema
 
 <h1 align="center"> 
  
