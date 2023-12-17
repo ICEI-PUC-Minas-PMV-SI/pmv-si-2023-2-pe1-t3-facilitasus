@@ -12,7 +12,7 @@ Aqui estão os arquivos da apresentação!
 
 
 ## Conjunto de Slides (Estrutura)
-Os slides usados para apresentação, podem ser visualizados aqui: [Apresentação](./presentation/Slides.pdf)
+Os slides usados para apresentação, podem ser visualizados aqui: [Apresentação](./Slides.pdf)
 
 
 ## Vídeo de demonstração
