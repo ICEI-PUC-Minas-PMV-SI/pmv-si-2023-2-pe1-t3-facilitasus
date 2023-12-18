@@ -1,5 +1,4 @@
 <h1 align="center">
-  FacilitaSUS
 
   ![Logo](./docs/main/logo.png)
 </h1>
