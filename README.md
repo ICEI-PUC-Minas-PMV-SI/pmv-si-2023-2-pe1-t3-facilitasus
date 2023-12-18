@@ -1,6 +1,10 @@
 <h1 align="center">
-  <a href="https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t3-facilitasus/src/LoginPage.html"> FacilitaSUS </a>
+  FacilitaSUS
+
+  ![Logo](./docs/main/logo.png)
 </h1>
+
+
 
 `CURSO: Sistemas de Informação`
 
